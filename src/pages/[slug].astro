@@ -1,0 +1,35 @@
+---
+import { getCollection, render } from 'astro:content';
+import ArticleLayout from '../layouts/ArticleLayout.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => {
+    // Normaliza slug removendo extensão se presente
+    const slug = (post.slug ?? post.id).replace(/\.(md|mdx)$/, '');
+    return {
+      params: { slug },
+      props: { post },
+    };
+  });
+}
+
+const { post } = Astro.props;
+// Suporte tanto para Astro 4 (post.render()) quanto para Astro 5 (render(post))
+const rendered = typeof (post as any).render === 'function' ? await (post as any).render() : await render(post);
+const Content = rendered.Content;
+---
+
+<ArticleLayout
+  title={post.data.title}
+  description={post.data.description}
+  datePublished={post.data.datePublished}
+  dateModified={post.data.dateModified}
+  author={post.data.author}
+  image={post.data.image}
+  badge={post.data.badge}
+  readTime={post.data.readTime}
+  keywords={post.data.keywords}
+>
+  <Content />
+</ArticleLayout>

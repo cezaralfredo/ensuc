@@ -1,0 +1,286 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  datePublished: Date;
+  dateModified?: Date;
+  author?: string;
+  image?: string;
+  badge?: string;
+  readTime?: string;
+  keywords?: string;
+}
+
+const {
+  title,
+  description,
+  datePublished,
+  dateModified,
+  author = 'ENSUC Soluções Ambientais',
+  image = '/og-image.png',
+  badge = 'Artigo',
+  readTime = '5 min de leitura',
+  keywords
+} = Astro.props;
+
+const formattedDate = new Intl.DateTimeFormat('pt-BR', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric'
+}).format(datePublished);
+
+const isoPublished = datePublished.toISOString();
+const isoModified = dateModified ? dateModified.toISOString() : isoPublished;
+
+const canonicalURL = Astro.url.href;
+const imageURL = new URL(image, Astro.site).href;
+
+const schemaData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": `${canonicalURL}#article`,
+      "isPartOf": { "@id": "https://ensuc.com.br/#website" },
+      "headline": title,
+      "description": description,
+      "image": imageURL,
+      "datePublished": isoPublished,
+      "dateModified": isoModified,
+      "inLanguage": "pt-BR",
+      "mainEntityOfPage": canonicalURL,
+      "author": {
+        "@type": "Organization",
+        "name": author,
+        "url": "https://ensuc.com.br/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "ENSUC",
+        "url": "https://ensuc.com.br/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://ensuc.com.br/logo-ensuc.webp"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://ensuc.com.br/" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://ensuc.com.br/blog" },
+        { "@type": "ListItem", "position": 3, "name": title, "item": canonicalURL }
+      ]
+    }
+  ]
+};
+---
+
+<BaseLayout
+  title={`${title} | Blog ENSUC`}
+  description={description}
+  image={image}
+  activeNav="blog"
+  keywords={keywords}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
+  </Fragment>
+
+  <article class="article-header">
+    <div class="breadcrumb">
+      <a href="/">Home</a> › <a href="/blog">Blog</a> › <span>{badge}</span>
+    </div>
+    <span class="post-badge">{badge}</span>
+    <h1>{title}</h1>
+    <p class="post-lead">{description}</p>
+    <div class="post-meta-bar">
+      <span>Publicado por <strong>{author}</strong></span>
+      <span>•</span>
+      <span>{formattedDate}</span>
+      <span>•</span>
+      <span>{readTime}</span>
+    </div>
+  </article>
+
+  <section class="post-content">
+    <slot />
+  </section>
+
+  <section class="cta-strip">
+    <h2>Pronto para posicionar sua empresa<br /><em>no mercado de carbono?</em></h2>
+    <p>A equipe técnica da ENSUC avalia seu projeto ou desenha sua estratégia de compensação com rigor técnico e conformidade regulatória.</p>
+    <a href="/#contato" class="btn-p">Falar com Especialistas ENSUC →</a>
+  </section>
+</BaseLayout>
+
+<style>
+  .article-header {
+    padding: 60px 5% 40px;
+    max-width: 880px;
+    margin: 0 auto;
+  }
+
+  .breadcrumb {
+    font-family: var(--fa);
+    font-size: 0.72rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--gray);
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .breadcrumb a {
+    color: var(--gold);
+    transition: color var(--tr);
+  }
+
+  .breadcrumb a:hover {
+    color: var(--gold2);
+  }
+
+  .post-badge {
+    display: inline-block;
+    background: rgba(201, 168, 76, 0.12);
+    border: 1px solid rgba(201, 168, 76, 0.3);
+    color: var(--gold);
+    font-family: var(--fa);
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    border-radius: 2px;
+    margin-bottom: 1.2rem;
+  }
+
+  h1 {
+    font-family: var(--fd);
+    font-size: clamp(2.2rem, 4.5vw, 3.4rem);
+    font-weight: 900;
+    line-height: 1.15;
+    margin-bottom: 1.2rem;
+    color: var(--white);
+  }
+
+  .post-lead {
+    font-size: 1.15rem;
+    color: var(--gray);
+    line-height: 1.8;
+    margin-bottom: 1.8rem;
+  }
+
+  .post-meta-bar {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-family: var(--fa);
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gray);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    padding: 14px 0;
+    margin-bottom: 2.5rem;
+    flex-wrap: wrap;
+  }
+
+  .post-meta-bar strong {
+    color: var(--white);
+  }
+
+  /* Post Content Markdown Styling */
+  .post-content {
+    max-width: 880px;
+    margin: 0 auto 60px;
+    padding: 0 5%;
+  }
+
+  :global(.post-content p) {
+    color: var(--gray);
+    font-size: 1.05rem;
+    line-height: 1.85;
+    margin-bottom: 1.6rem;
+  }
+
+  :global(.post-content p strong) {
+    color: var(--white);
+    font-weight: 500;
+  }
+
+  :global(.post-content h2) {
+    font-family: var(--fd);
+    font-size: 1.7rem;
+    color: var(--white);
+    margin: 2.5rem 0 1rem;
+    font-weight: 700;
+  }
+
+  :global(.post-content h3) {
+    font-family: var(--fd);
+    font-size: 1.4rem;
+    color: var(--gold3);
+    margin: 2rem 0 0.8rem;
+    font-weight: 700;
+  }
+
+  :global(.post-content ul),
+  :global(.post-content ol) {
+    color: var(--gray);
+    margin: 0 0 1.6rem 1.6rem;
+    line-height: 1.8;
+  }
+
+  :global(.post-content li) {
+    margin-bottom: 0.6rem;
+  }
+
+  :global(.post-content li strong) {
+    color: var(--white);
+  }
+
+  :global(.post-content blockquote) {
+    border-left: 3px solid var(--gold);
+    padding: 16px 24px;
+    margin: 2rem 0;
+    background: var(--forest);
+    font-family: var(--fd);
+    font-style: italic;
+    font-size: 1.15rem;
+    color: var(--white);
+    line-height: 1.7;
+  }
+
+  .cta-strip {
+    padding: 80px 5%;
+    background: var(--green);
+    border-top: 1px solid var(--border);
+    text-align: center;
+  }
+
+  .cta-strip h2 {
+    font-family: var(--fd);
+    font-size: clamp(1.8rem, 3vw, 2.6rem);
+    font-weight: 900;
+    margin-bottom: 1rem;
+    color: var(--white);
+  }
+
+  .cta-strip h2 em {
+    font-style: italic;
+    color: var(--gold);
+  }
+
+  .cta-strip p {
+    color: var(--gray);
+    max-width: 560px;
+    margin: 0 auto 2rem;
+    line-height: 1.75;
+  }
+</style>

@@ -1,0 +1,36 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  image?: string;
+  activeNav?: string;
+  keywords?: string;
+}
+
+const { title, description, image, activeNav, keywords } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <BaseHead
+      title={title}
+      description={description}
+      image={image}
+      keywords={keywords}
+    />
+    <slot name="head" />
+  </head>
+  <body>
+    <Header activeNav={activeNav} />
+    <main id="main-content" style="padding-top: var(--nav);">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

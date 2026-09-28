@@ -1,0 +1,244 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+
+const posts = (await getCollection('blog')).sort(
+  (a, b) => b.data.datePublished.valueOf() - a.data.datePublished.valueOf()
+);
+
+const pageTitle = "Blog — Mercado de Carbono e ESG | ENSUC";
+const pageDesc = "Análises práticas sobre mercado de carbono, ESG, regulação SBCE e oportunidades reais de negócio — escritas pela equipe técnica da ENSUC.";
+---
+
+<BaseLayout
+  title={pageTitle}
+  description={pageDesc}
+  activeNav="blog"
+  keywords="blog mercado de carbono, artigos crédito de carbono, regulação SBCE, ESG empresas, REDD+ brasil"
+>
+  <div class="page-hero">
+    <div class="ph-grid"></div>
+    <div class="ph-inner">
+      <div class="breadcrumb">
+        <a href="/">Home</a> › <span>Blog & Insights</span>
+      </div>
+      <h1 class="page-h1">Blog — Mercado de<br /><em>Carbono e ESG</em></h1>
+      <p class="page-sub">{pageDesc}</p>
+      <div class="hero-badges">
+        <div class="hbadge">
+          <span style="color:var(--gold);font-weight:700;">{posts.length}</span> artigos publicados
+        </div>
+        <div class="hbadge">Atualizado com o SBCE 2026</div>
+        <div class="hbadge">Rigor Técnico e Regulação</div>
+      </div>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="section-inner">
+      <div class="blog-bar">
+        <div class="stag">Editorial ENSUC</div>
+        <h2 class="sh2">Últimos <em>artigos e análises.</em></h2>
+      </div>
+
+      <div class="blog-cats">
+        <span class="blog-cat-btn active">Todos</span>
+        <a href="/mercado" class="blog-cat-btn">Mercado & SBCE</a>
+        <a href="/paa" class="blog-cat-btn">PAA & Florestas</a>
+        <a href="/biomas" class="blog-cat-btn">Biomas</a>
+      </div>
+
+      <div class="blog-grid">
+        {posts.map((post) => {
+          const slug = (post.slug ?? post.id).replace(/\.(md|mdx)$/, '');
+          return (
+            <ArticleCard
+              title={post.data.title}
+              description={post.data.description}
+              slug={slug}
+              date={post.data.datePublished}
+              badge={post.data.badge}
+              readTime={post.data.readTime}
+            />
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-strip">
+    <div class="cta-inner">
+      <h2>Pronto para estruturar o projeto de carbono<br /><em>da sua propriedade ou empresa?</em></h2>
+      <p>Nossa equipe técnica atua do diagnóstico inicial de biomassa à certificação e venda dos créditos com alcance internacional.</p>
+      <div class="cta-row">
+        <a href="/simulador" class="btn-p">Fazer Simulação de CO₂ →</a>
+        <a href="/#contato" class="btn-o">Falar com Consultores</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-hero {
+    position: relative;
+    padding: 100px 5% 70px;
+    background: radial-gradient(circle at 80% 20%, rgba(30, 77, 53, 0.45) 0%, rgba(6, 14, 9, 0.95) 70%);
+    border-bottom: 1px solid var(--border);
+    overflow: hidden;
+  }
+
+  .ph-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+
+  .breadcrumb {
+    font-family: var(--fa);
+    font-size: 0.72rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--gray);
+    margin-bottom: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .breadcrumb a {
+    color: var(--gold);
+  }
+
+  .page-h1 {
+    font-family: var(--fd);
+    font-size: clamp(2.4rem, 5vw, 4rem);
+    font-weight: 900;
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+    margin-bottom: 1.2rem;
+    color: var(--white);
+  }
+
+  .page-h1 em {
+    font-style: italic;
+    color: var(--gold);
+  }
+
+  .page-sub {
+    font-size: 1.08rem;
+    color: var(--gray);
+    max-width: 650px;
+    line-height: 1.75;
+  }
+
+  .hero-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 1.8rem;
+  }
+
+  .hbadge {
+    font-family: var(--fa);
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background: rgba(201, 168, 76, 0.08);
+    border: 1px solid var(--border);
+    color: var(--gray);
+    padding: 6px 14px;
+    border-radius: 2px;
+  }
+
+  .section {
+    padding: 80px 5%;
+  }
+
+  .section-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .blog-cats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 2.5rem;
+  }
+
+  .blog-cat-btn {
+    font-family: var(--fa);
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    background: rgba(201, 168, 76, 0.08);
+    border: 1px solid var(--border);
+    color: var(--gray);
+    padding: 8px 18px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all var(--tr);
+    display: inline-block;
+  }
+
+  .blog-cat-btn:hover,
+  .blog-cat-btn.active {
+    background: var(--gold);
+    color: var(--deep);
+    border-color: var(--gold);
+  }
+
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+
+  .cta-strip {
+    padding: 80px 5%;
+    background: var(--green);
+    border-top: 1px solid var(--border);
+    text-align: center;
+  }
+
+  .cta-inner {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .cta-strip h2 {
+    font-family: var(--fd);
+    font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+    font-weight: 900;
+    margin-bottom: 1rem;
+    color: var(--white);
+  }
+
+  .cta-strip h2 em {
+    font-style: italic;
+    color: var(--gold);
+  }
+
+  .cta-strip p {
+    color: var(--gray);
+    max-width: 580px;
+    margin: 0 auto 2.2rem;
+    line-height: 1.75;
+    font-size: 1.05rem;
+  }
+
+  .cta-row {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 850px) {
+    .blog-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

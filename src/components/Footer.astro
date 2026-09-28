@@ -1,0 +1,155 @@
+---
+---
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="foot-brand">
+        <a href="/" class="foot-logo">
+          <img src="/logo-ensuc.webp" alt="ENSUC Soluções Ambientais" width="192" height="48" style="height:48px;width:auto;" />
+        </a>
+        <p class="foot-desc">
+          Plataforma B2B de créditos de carbono, ESG e gestão ambiental. Conectando geradores e compradores com rigor técnico e alcance global.
+        </p>
+        <div class="foot-badge">
+          <span>🌱 Certificação e Transparência</span>
+        </div>
+      </div>
+
+      <div class="fcol">
+        <h4>Soluções</h4>
+        <ul>
+          <li><a href="/mercado">Mercado de Carbono</a></li>
+          <li><a href="/paa">PAA — Ativos Ambientais</a></li>
+          <li><a href="/biomas">Biomas Brasileiros</a></li>
+          <li><a href="/simulador">Simulador de CO₂</a></li>
+          <li><a href="/financiamento">Financiamento Verde</a></li>
+          <li><a href="/marco">Marco Regulatório</a></li>
+        </ul>
+      </div>
+
+      <div class="fcol">
+        <h4>Institucional</h4>
+        <ul>
+          <li><a href="/#sobre">Sobre a ENSUC</a></li>
+          <li><a href="/blog">Blog & Insights</a></li>
+          <li><a href="/#contato">Contato Comercial</a></li>
+        </ul>
+      </div>
+
+      <div class="fcol">
+        <h4>Legal & Governança</h4>
+        <ul>
+          <li><a href="/privacidade">Política de Privacidade</a></li>
+          <li><a href="/lgpd">Conformidade LGPD</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="foot-bot">
+      <span>© 2026 ENSUC Soluções Ambientais LTDA. Todos os direitos reservados.</span>
+      <span>CNPJ: 60.778.231/0001-52 • Fortaleza/CE — Brasil</span>
+    </div>
+  </div>
+</footer>
+
+<style>
+  footer {
+    background: var(--forest);
+    border-top: 1px solid var(--border);
+    padding: 60px 5% 32px;
+  }
+
+  .footer-inner {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 48px;
+    margin-bottom: 48px;
+  }
+
+  .foot-brand {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .foot-desc {
+    font-size: 0.85rem;
+    color: var(--gray);
+    line-height: 1.75;
+    max-width: 320px;
+  }
+
+  .foot-badge span {
+    display: inline-block;
+    background: rgba(201, 168, 76, 0.08);
+    border: 1px solid var(--border);
+    color: var(--gold);
+    font-family: var(--fa);
+    font-size: 0.72rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 6px 12px;
+    border-radius: 2px;
+  }
+
+  .fcol h4 {
+    font-family: var(--fa);
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 1.2rem;
+  }
+
+  .fcol ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .fcol a {
+    font-size: 0.85rem;
+    color: var(--gray);
+    transition: color var(--tr);
+  }
+
+  .fcol a:hover {
+    color: var(--white);
+  }
+
+  .foot-bot {
+    border-top: 1px solid var(--border);
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 0.78rem;
+    color: var(--gray);
+  }
+
+  @media (max-width: 900px) {
+    .footer-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 36px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .footer-grid {
+      grid-template-columns: 1fr;
+    }
+    .foot-bot {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+</style>

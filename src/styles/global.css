@@ -1,0 +1,142 @@
+/* ENSUC Design System — Tokens & Global Rules */
+:root {
+  --deep: #060e09;        /* fundo geral (quase preto-verde) */
+  --forest: #0d1f15;      /* fundo de cards / camadas altas */
+  --dark: #142a1d;        /* fundo de seções alternadas / forms */
+  --green: #1e4d35;       /* realce de hover / boxes de resultado */
+  --mid: #2d6a4f;         /* sucesso / estados confirmados */
+  --light: #52b788;
+  --gold: #c9a84c;        /* CTA primário / destaques / ícones */
+  --gold2: #e8c55a;       /* hover de CTA */
+  --gold3: #f2dfa0;
+  --white: #f4f0e8;       /* texto principal (off-white) */
+  --gray: #8a9e8f;        /* texto secundário */
+  --border: rgba(201, 168, 76, 0.18); /* bordas douradas translúcidas */
+  --fd: 'Playfair Display', Georgia, serif; /* títulos */
+  --fa: 'Oswald', sans-serif;              /* labels/nav/números/CTA */
+  --fb: 'DM Sans', system-ui, sans-serif;   /* corpo */
+  --nav: 72px;
+  --tr: 0.3s cubic-bezier(0.4, 0, 0.2, 1);   /* transição padrão */
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  background: var(--deep);
+  color: var(--white);
+  font-family: var(--fb);
+  font-weight: 300;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: var(--forest);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--gold);
+  border-radius: 3px;
+}
+
+/* Utilities */
+.stag {
+  font-family: var(--fa);
+  font-size: 0.72rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--gold);
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 1rem;
+}
+.stag::before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 1px;
+  background: var(--gold);
+}
+
+.sh2 {
+  font-family: var(--fd);
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-weight: 900;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--white);
+  margin-bottom: 1.5rem;
+}
+.sh2 em {
+  font-style: italic;
+  color: var(--gold);
+}
+
+/* Botões */
+.btn-p {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--gold);
+  color: var(--deep);
+  font-family: var(--fa);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  border-radius: 2px;
+  border: none;
+  transition: all var(--tr);
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn-p:hover {
+  background: var(--gold2);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(201, 168, 76, 0.35);
+}
+
+.btn-o {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: transparent;
+  color: var(--white);
+  border: 1px solid rgba(244, 240, 232, 0.2);
+  font-family: var(--fa);
+  font-size: 0.85rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  border-radius: 2px;
+  transition: all var(--tr);
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn-o:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+  transform: translateY(-2px);
+}
