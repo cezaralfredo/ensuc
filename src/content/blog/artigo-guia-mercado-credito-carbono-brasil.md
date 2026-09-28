@@ -1,5 +1,5 @@
 ---
-title: "O mercado de crédito de carbono no Brasil: guia completo para propriedades rurais"
+title: "Mercado de Crédito de Carbono: Guia para Propriedades Rurais"
 description: "Entenda o que é crédito de carbono, os tipos de mercado, o novo marco regulatório (SBCE) e como sua propriedade rural pode gerar receita preservando vegetação nativa."
 datePublished: 2026-08-27
 author: "ENSUC Soluções Ambientais"
