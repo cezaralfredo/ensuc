@@ -37,4 +37,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: ${{ secrets.FTP_SERVER_DIR || 'public_html/' }}
           local-dir: ./dist/
+          protocol: ftp
+          security: loose
+          log-level: verbose
           dangerous-clean-slate: false
