@@ -6,7 +6,8 @@ export default defineConfig({
   site: 'https://ensuc.com.br',
   output: 'static',
   build: {
-    format: 'file' // generates /page/index.html or clean files
+    format: 'file',
+    inlineStylesheets: 'always'
   },
   integrations: [sitemap()],
 });
