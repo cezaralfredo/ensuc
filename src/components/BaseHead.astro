@@ -27,7 +27,9 @@ const {
 
 const siteName = 'ENSUC';
 const formattedTitle = title.includes('ENSUC') ? title : `${title} | ENSUC`;
-const imageURL = new URL(image, Astro.site);
+const imageURL = new URL(image, Astro.site ?? 'https://ensuc.com.br');
+const cleanPath = Astro.url.pathname.replace(/\.html$/, '').replace(/\/$/, '') || '/';
+const cleanCanonical = new URL(cleanPath, Astro.site ?? 'https://ensuc.com.br').href;
 ---
 
 <meta charset="UTF-8" />
@@ -54,13 +56,13 @@ const imageURL = new URL(image, Astro.site);
 <meta name="geo.position" content="-3.7172;-38.5433" />
 <meta name="ICBM" content="-3.7172, -38.5433" />
 
-<link rel="canonical" href={canonicalURL} />
+<link rel="canonical" href={cleanCanonical} />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content={type} />
 <meta property="og:site_name" content={siteName} />
 <meta property="og:locale" content="pt_BR" />
-<meta property="og:url" content={Astro.url} />
+<meta property="og:url" content={cleanCanonical} />
 <meta property="og:title" content={formattedTitle} />
 <meta property="og:description" content={description} />
 <meta property="og:image" content={imageURL} />

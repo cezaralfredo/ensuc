@@ -34,8 +34,9 @@ const formattedDate = new Intl.DateTimeFormat('pt-BR', {
 const isoPublished = datePublished.toISOString();
 const isoModified = dateModified ? dateModified.toISOString() : isoPublished;
 
-const canonicalURL = Astro.url.href;
-const imageURL = new URL(image, Astro.site).href;
+const cleanPath = Astro.url.pathname.replace(/\.html$/, '').replace(/\/$/, '') || '/';
+const canonicalURL = new URL(cleanPath, Astro.site ?? 'https://ensuc.com.br').href;
+const imageURL = new URL(image, Astro.site ?? 'https://ensuc.com.br').href;
 
 const schemaData = {
   "@context": "https://schema.org",
