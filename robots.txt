@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /backup/
+Disallow: /send-contato.php
+Disallow: /simulacao/
 
 Sitemap: https://ensuc.com.br/sitemap.xml

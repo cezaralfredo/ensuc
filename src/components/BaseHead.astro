@@ -86,7 +86,7 @@ const cleanCanonical = new URL(cleanPath, Astro.site ?? 'https://ensuc.com.br').
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@ensuc" />
-<meta name="twitter:url" content={Astro.url} />
+<meta name="twitter:url" content={cleanCanonical} />
 <meta name="twitter:title" content={formattedTitle} />
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={imageURL} />
