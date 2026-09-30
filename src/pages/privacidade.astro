@@ -82,22 +82,7 @@ a{text-decoration:none;color:inherit;}
 :root{--deep:#060e09;--forest:#0d1f15;--dark:#142a1d;--green:#1e4d35;--mid:#2d6a4f;--light:#52b788;--gold:#c9a84c;--gold2:#e8c55a;--white:#f4f0e8;--gray:#8a9e8f;--border:rgba(201,168,76,0.18);--fd:'Playfair Display',Georgia,serif;--fa:'Oswald',sans-serif;--fb:'DM Sans',system-ui,sans-serif;--nav:72px;--tr:0.3s cubic-bezier(0.4,0,0.2,1);}
 body{background:var(--deep);color:var(--white);font-family:var(--fb);font-weight:300;line-height:1.6;overflow-x:hidden;}
 ::-webkit-scrollbar{width:5px;}::-webkit-scrollbar-track{background:var(--forest);}::-webkit-scrollbar-thumb{background:var(--gold);border-radius:3px;}
-nav{position:fixed;top:0;left:0;right:0;height:var(--nav);z-index:1000;display:flex;align-items:center;justify-content:space-between;padding:0 5%;background:rgba(6,14,9,0.96);backdrop-filter:blur(20px);box-shadow:0 1px 0 var(--border);}
-.logo{font-family:var(--fa);font-weight:700;font-size:1.8rem;letter-spacing:.15em;color:var(--gold);display:flex;align-items:center;gap:8px;cursor:pointer;}
-.logo span{color:var(--white);}.logo-dot{width:8px;height:8px;background:var(--gold);border-radius:50%;animation:pulse 2s infinite;}
-@keyframes pulse{0%,100%{opacity:1;transform:scale(1);}50%{opacity:.5;transform:scale(1.6);}}
-.nav-links{display:flex;align-items:center;gap:1.6rem;list-style:none;}
-.nav-links a{font-family:var(--fa);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gray);transition:color var(--tr);position:relative;}
-.nav-links a::after{content:'';position:absolute;bottom:-4px;left:0;right:0;height:1px;background:var(--gold);transform:scaleX(0);transition:transform var(--tr);}
-.nav-links a:hover,.nav-links a.active{color:var(--gold);}
-.nav-links a.active::after,.nav-links a:hover::after{transform:scaleX(1);}
-.nav-right{display:flex;align-items:center;gap:16px;}.lang-sw{display:flex;gap:4px;}
-.lbtn{background:none;border:1px solid transparent;color:var(--gray);font-family:var(--fa);font-size:.7rem;cursor:pointer;padding:4px 8px;border-radius:2px;transition:all var(--tr);}
-.lbtn.active,.lbtn:hover{border-color:var(--gold);color:var(--gold);}
-.nav-cta{background:var(--gold);color:var(--deep);font-family:var(--fa);font-size:.75rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:10px 22px;border-radius:2px;transition:all var(--tr);cursor:pointer;border:none;}
-.nav-cta:hover{background:var(--gold2);}
-.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;}
-.hamburger span{display:block;width:24px;height:1.5px;background:var(--white);}
+
 .page-hero{padding:calc(var(--nav) + 80px) 5% 80px;position:relative;overflow:hidden;border-bottom:1px solid var(--border);}
 .page-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 70% 50%,rgba(45,106,79,.12) 0%,transparent 60%),radial-gradient(ellipse at 10% 80%,rgba(201,168,76,.06) 0%,transparent 40%),var(--deep);}
 .ph-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(201,168,76,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(201,168,76,.03) 1px,transparent 1px);background-size:60px 60px;}
@@ -170,7 +155,7 @@ footer{background:var(--forest);border-top:1px solid var(--border);padding:48px 
 .wa-float{position:fixed;right:22px;bottom:22px;width:56px;height:56px;border-radius:50%;background:#25d366;display:flex;align-items:center;justify-content:center;z-index:1200;box-shadow:0 8px 24px rgba(37,211,102,.35);transition:transform var(--tr),box-shadow var(--tr);cursor:pointer;}
 .wa-float:hover{transform:translateY(-3px);box-shadow:0 14px 32px rgba(37,211,102,.5);}
 .wa-float svg{width:30px;height:30px;fill:var(--white);}
-@media(max-width:900px){.what-grid{grid-template-columns:1fr;}.sbce-grid{grid-template-columns:1fr;}.footer-grid{grid-template-columns:1fr 1fr;}.nav-links{display:none;}.hamburger{display:flex;}.nav-links.open{display:flex;flex-direction:column;position:fixed;top:var(--nav);left:0;right:0;background:rgba(6,14,9,.98);padding:20px 5%;gap:0;}.nav-links.open li{border-bottom:1px solid var(--border);}.nav-links.open a{display:block;padding:14px 0;}}
+@media(max-width:900px){.what-grid{grid-template-columns:1fr;}.sbce-grid{grid-template-columns:1fr;}.footer-grid{grid-template-columns:1fr 1fr;}}
 </style>
 </head>
 <body>
