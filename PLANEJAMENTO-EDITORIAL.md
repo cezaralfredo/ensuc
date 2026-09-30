@@ -36,7 +36,7 @@ Para evitar conteúdo repetido e penalizações de SEO no Google:
 | 2026-07-14 | `artigo-esg-e-creditos-de-carbono-na-pratica` | `ESG e créditos de carbono` | ESG e créditos de carbono na prática: do inventário ao relatório | ESG / Empresas |
 | 2026-07-28 | `artigo-mercado-de-carbono-brasil-2026` | `mercado de carbono brasil 2026` | Mercado de carbono no Brasil em 2026: o que mudou e o que esperar | Mercado / SBCE |
 | 2026-08-27 | `artigo-guia-mercado-credito-carbono-brasil` | `guia crédito de carbono propriedades rurais` | Mercado de Crédito de Carbono: Guia para Propriedades Rurais | Produtores / PAA |
-| 2026-09-30 | `artigo-cotacao-credito-carbono-2026` | `cotação credito de carbono` / `quanto vale um credito de carbono` | Cotação do Crédito de Carbono: Quanto Vale 1 tCO₂e em 2026? | Mercado / Cotação |
+| 2026-09-30 | `artigo-cotacao-credito-carbono-2026`<br>*(+ versões `-en` e `-es`)* | `cotação credito de carbono` / `carbon credit price` / `cotización` | Cotação do Crédito de Carbono: Quanto Vale 1 tCO₂e em 2026? *(Trilíngue PT/EN/ES)* | Mercado / Cotação Global |
 
 ---
 

@@ -3,9 +3,13 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 
-const posts = (await getCollection('blog')).sort(
-  (a, b) => b.data.datePublished.valueOf() - a.data.datePublished.valueOf()
-);
+const allPosts = await getCollection('blog');
+const posts = allPosts
+  .filter((p) => {
+    const slug = (p.slug ?? p.id).replace(/\.(md|mdx)$/, '');
+    return !slug.endsWith('-en') && !slug.endsWith('-es');
+  })
+  .sort((a, b) => b.data.datePublished.valueOf() - a.data.datePublished.valueOf());
 
 const pageTitle = "Blog: Mercado de Carbono, ESG e Créditos no Brasil | ENSUC";
 const pageDesc = "Análises práticas sobre mercado de carbono, ESG, regulação SBCE e oportunidades reais de negócio — escritas pela equipe técnica da ENSUC.";

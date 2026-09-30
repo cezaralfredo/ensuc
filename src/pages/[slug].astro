@@ -15,6 +15,19 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props;
+const slug = (post.slug ?? post.id).replace(/\.(md|mdx)$/, '');
+
+const isEn = slug.endsWith('-en');
+const isEs = slug.endsWith('-es');
+const lang: 'pt' | 'en' | 'es' = isEn ? 'en' : (isEs ? 'es' : ((post.data as any).lang || 'pt'));
+const baseSlug = slug.replace(/-(en|es)$/, '');
+
+const translations = {
+  pt: `/${baseSlug}`,
+  en: `/${baseSlug}-en`,
+  es: `/${baseSlug}-es`,
+};
+
 // Suporte tanto para Astro 4 (post.render()) quanto para Astro 5 (render(post))
 const rendered = typeof (post as any).render === 'function' ? await (post as any).render() : await render(post);
 const Content = rendered.Content;
@@ -30,6 +43,9 @@ const Content = rendered.Content;
   badge={post.data.badge}
   readTime={post.data.readTime}
   keywords={post.data.keywords}
+  lang={lang}
+  baseSlug={baseSlug}
+  translations={translations}
 >
   <Content />
 </ArticleLayout>

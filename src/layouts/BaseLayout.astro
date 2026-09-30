@@ -10,13 +10,20 @@ interface Props {
   image?: string;
   activeNav?: string;
   keywords?: string;
+  lang?: 'pt' | 'en' | 'es';
+  translations?: {
+    pt?: string;
+    en?: string;
+    es?: string;
+  };
 }
 
-const { title, description, image, activeNav, keywords } = Astro.props;
+const { title, description, image, activeNav, keywords, lang = 'pt', translations } = Astro.props;
+const htmlLang = lang === 'pt' ? 'pt-BR' : lang;
 ---
 
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang={htmlLang}>
   <head>
     <BaseHead
       title={title}
@@ -27,7 +34,7 @@ const { title, description, image, activeNav, keywords } = Astro.props;
     <slot name="head" />
   </head>
   <body>
-    <Header activeNav={activeNav} />
+    <Header activeNav={activeNav} lang={lang} translations={translations} />
     <main id="main-content" style="padding-top: var(--nav);">
       <slot />
     </main>

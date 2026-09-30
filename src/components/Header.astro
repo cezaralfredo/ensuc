@@ -1,9 +1,20 @@
 ---
 interface Props {
   activeNav?: string;
+  lang?: 'pt' | 'en' | 'es';
+  translations?: {
+    pt?: string;
+    en?: string;
+    es?: string;
+  };
 }
 
-const { activeNav } = Astro.props;
+const { activeNav, lang = 'pt', translations } = Astro.props;
+
+// URLs para troca de idioma
+const ptUrl = translations?.pt || (activeNav ? `/${activeNav}` : '/');
+const enUrl = translations?.en || (activeNav ? `/?lang=en#/${activeNav}` : '/?lang=en');
+const esUrl = translations?.es || (activeNav ? `/?lang=es#/${activeNav}` : '/?lang=es');
 ---
 
 <header class="header-nav" id="main-header">
@@ -15,16 +26,23 @@ const { activeNav } = Astro.props;
     <ul class="nav-links" id="nav-links">
       <li><a href="/mercado" class={activeNav === 'mercado' ? 'active' : ''}>Mercado de Carbono</a></li>
       <li><a href="/paa" class={activeNav === 'paa' ? 'active' : ''}>PAA</a></li>
+      <li><a href="/simulador" class={activeNav === 'simulador' ? 'active' : ''}>Simulador Online</a></li>
       <li><a href="/biomas" class={activeNav === 'biomas' ? 'active' : ''}>Biomas</a></li>
       <li><a href="/marco" class={activeNav === 'marco' ? 'active' : ''}>Regulação</a></li>
       <li><a href="/financiamento" class={activeNav === 'financiamento' ? 'active' : ''}>Financiamento</a></li>
-      <li><a href="/simulador" class={activeNav === 'simulador' ? 'active' : ''}>Simulador</a></li>
       <li><a href="/blog" class={activeNav === 'blog' ? 'active' : ''}>Blog</a></li>
       <li><a href="/#contato">Contato</a></li>
     </ul>
 
     <div class="nav-right">
-      <a href="/simulador" class="nav-cta">Simular Carbono</a>
+      <div class="lang-sw" aria-label="Seleção de idioma">
+        <a href={ptUrl} class={`lbtn ${lang === 'pt' ? 'active' : ''}`} title="Português">PT</a>
+        <a href={enUrl} class={`lbtn ${lang === 'en' ? 'active' : ''}`} title="English">EN</a>
+        <a href={esUrl} class={`lbtn ${lang === 'es' ? 'active' : ''}`} title="Español">ES</a>
+      </div>
+
+      <a href="/#contato" class="nav-cta">Começar Agora</a>
+
       <button class="hamburger" id="hamburger-btn" aria-label="Abrir menu de navegação" aria-expanded="false">
         <span></span>
         <span></span>
@@ -80,6 +98,7 @@ const { activeNav } = Astro.props;
     transition: color var(--tr);
     padding: 6px 0;
     position: relative;
+    text-decoration: none;
   }
 
   .nav-links a::after {
@@ -108,7 +127,37 @@ const { activeNav } = Astro.props;
   .nav-right {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 14px;
+  }
+
+  /* LANGUAGE SWITCHER */
+  .lang-sw {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .lbtn {
+    background: transparent;
+    border: 1px solid transparent;
+    color: var(--gray);
+    font-family: var(--fa);
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 2px;
+    transition: all var(--tr);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lbtn.active,
+  .lbtn:hover {
+    border-color: var(--gold);
+    color: var(--gold);
   }
 
   .nav-cta {
@@ -119,11 +168,12 @@ const { activeNav } = Astro.props;
     font-weight: 600;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    padding: 10px 22px;
+    padding: 10px 20px;
     border-radius: 2px;
     transition: all var(--tr);
     text-decoration: none;
     display: inline-block;
+    white-space: nowrap;
   }
 
   .nav-cta:hover {
@@ -182,6 +232,12 @@ const { activeNav } = Astro.props;
       display: block;
       padding: 14px 0;
       font-size: 0.85rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .nav-cta {
+      display: none;
     }
   }
 </style>

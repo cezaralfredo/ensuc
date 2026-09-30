@@ -2898,6 +2898,7 @@ const TITLES={home:'ENSUC — Mercado de Carbono B2B',mercado:'Mercado de Carbon
 
 function setLang(l){
   lang=l;
+  try { localStorage.setItem('ensuc_lang', l); } catch(e){}
   document.querySelectorAll('.lbtn').forEach(b=>b.classList.toggle('active',b.textContent===l.toUpperCase()));
   document.querySelectorAll('[data-k]').forEach(el=>{
     const k=el.dataset.k,v=T[l][k];
@@ -2964,6 +2965,12 @@ function show(v){
 }
 function nav(p){if(PAGES.includes(p)){location.hash='/'+p;show(p);}}
 function route(){
+  try {
+    const qLang = new URLSearchParams(location.search).get('lang') || localStorage.getItem('ensuc_lang');
+    if (qLang && ['en','es','pt'].includes(qLang) && qLang !== lang) {
+      setLang(qLang);
+    }
+  } catch(e){}
   const h=location.hash.replace(/^#\/?/,'');
   const p=h.split('?')[0];
   if(p.startsWith('post/')){openPost(p.slice(5));return;}

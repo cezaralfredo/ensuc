@@ -29,6 +29,11 @@ Sempre que o usuário solicitar a pesquisa, redação ou publicação de um novo
 * `readTime`: Estimativa realista (ex: "5 min de leitura").
 * `badge` e `category`: Alinhados com os clusters (Mercado, Guia Rural, ESG, Biomas, Financiamento).
 * `image`: Sempre apontar para caminho semântico em `/images/blog/artigo-[slug].png` ou `.webp`.
+## 4. Publicação Multilíngue Obrigatória (Inglês e Espanhol)
+Sempre que um artigo principal em português for gerado em `src/content/blog/artigo-[slug].md`, o agente DEVE invocar a skill `blog-multilingual` e gerar imediatamente as versões correspondentes:
+1. **Inglês:** `src/content/blog/artigo-[slug]-en.md` com terminologia B2B e clima em inglês.
+2. **Espanhol:** `src/content/blog/artigo-[slug]-es.md` com terminologia equivalente em espanhol.
+3. As três versões devem compartilhar os mesmos links de conversão, dados de data e referências semânticas de imagem, permitindo que o seletor de idiomas do header e as tags `hreflang` funcionem de forma sincronizada e sem links quebrados.
 
-## 4. Registro no Calendário
-Ao finalizar a publicação, registrar imediatamente a data, slug, título e palavra-chave primária na tabela de histórico em `PLANEJAMENTO-EDITORIAL.md`.
+## 5. Registro no Calendário
+Ao finalizar a publicação (incluindo as versões PT, EN e ES), registrar imediatamente a data, slug, título e palavra-chave primária na tabela de histórico em `PLANEJAMENTO-EDITORIAL.md`.

@@ -11,6 +11,13 @@ interface Props {
   badge?: string;
   readTime?: string;
   keywords?: string;
+  lang?: 'pt' | 'en' | 'es';
+  baseSlug?: string;
+  translations?: {
+    pt?: string;
+    en?: string;
+    es?: string;
+  };
 }
 
 const {
@@ -22,10 +29,14 @@ const {
   image = '/og-image.png',
   badge = 'Artigo',
   readTime = '5 min de leitura',
-  keywords
+  keywords,
+  lang = 'pt',
+  baseSlug,
+  translations
 } = Astro.props;
 
-const formattedDate = new Intl.DateTimeFormat('pt-BR', {
+const locale = lang === 'pt' ? 'pt-BR' : (lang === 'es' ? 'es-ES' : 'en-US');
+const formattedDate = new Intl.DateTimeFormat(locale, {
   day: 'numeric',
   month: 'long',
   year: 'numeric'
@@ -37,6 +48,40 @@ const isoModified = dateModified ? dateModified.toISOString() : isoPublished;
 const cleanPath = Astro.url.pathname.replace(/\.html$/, '').replace(/\/$/, '') || '/';
 const canonicalURL = new URL(cleanPath, Astro.site ?? 'https://ensuc.com.br').href;
 const imageURL = new URL(image, Astro.site ?? 'https://ensuc.com.br').href;
+
+// Textos da interface adaptados ao idioma
+const ui = {
+  pt: {
+    home: 'Home',
+    blog: 'Blog',
+    publishedBy: 'Publicado por',
+    ctaTitle: 'Pronto para posicionar sua empresa',
+    ctaSubtitle: 'no mercado de carbono?',
+    ctaDesc: 'A equipe técnica da ENSUC avalia seu projeto ou desenha sua estratégia de compensação com rigor técnico e conformidade regulatória.',
+    ctaBtn: 'Falar com Especialistas ENSUC →',
+    siteSuffix: 'Blog ENSUC'
+  },
+  en: {
+    home: 'Home',
+    blog: 'Blog',
+    publishedBy: 'Published by',
+    ctaTitle: 'Ready to position your company',
+    ctaSubtitle: 'in the carbon market?',
+    ctaDesc: 'The ENSUC technical team assesses your project or designs your carbon offsetting strategy with technical rigor and regulatory compliance.',
+    ctaBtn: 'Speak with ENSUC Specialists →',
+    siteSuffix: 'ENSUC Blog'
+  },
+  es: {
+    home: 'Inicio',
+    blog: 'Blog',
+    publishedBy: 'Publicado por',
+    ctaTitle: '¿Listo para posicionar su empresa',
+    ctaSubtitle: 'en el mercado de carbono?',
+    ctaDesc: 'El equipo técnico de ENSUC evalúa su proyecto o diseña su estrategia de compensación con rigor técnico y cumplimiento normativo.',
+    ctaBtn: 'Hablar con Especialistas ENSUC →',
+    siteSuffix: 'Blog ENSUC'
+  }
+}[lang];
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -50,7 +95,7 @@ const schemaData = {
       "image": imageURL,
       "datePublished": isoPublished,
       "dateModified": isoModified,
-      "inLanguage": "pt-BR",
+      "inLanguage": lang === 'pt' ? 'pt-BR' : lang,
       "mainEntityOfPage": canonicalURL,
       "author": {
         "@type": "Organization",
@@ -70,35 +115,45 @@ const schemaData = {
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://ensuc.com.br/" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://ensuc.com.br/blog" },
+        { "@type": "ListItem", "position": 1, "name": ui.home, "item": "https://ensuc.com.br/" },
+        { "@type": "ListItem", "position": 2, "name": ui.blog, "item": "https://ensuc.com.br/blog" },
         { "@type": "ListItem", "position": 3, "name": title, "item": canonicalURL }
       ]
     }
   ]
 };
+
+const rootSlug = baseSlug || cleanPath.replace(/^\//, '').replace(/-(en|es)$/, '');
 ---
 
 <BaseLayout
-  title={`${title} | Blog ENSUC`}
+  title={`${title} | ${ui.siteSuffix}`}
   description={description}
   image={image}
   activeNav="blog"
   keywords={keywords}
+  lang={lang}
+  translations={translations}
 >
   <Fragment slot="head">
+    <!-- Hreflang cruzado para os idiomas disponíveis do artigo -->
+    <link rel="alternate" hreflang="pt-BR" href={`https://ensuc.com.br/${rootSlug}`} />
+    <link rel="alternate" hreflang="en" href={`https://ensuc.com.br/${rootSlug}-en`} />
+    <link rel="alternate" hreflang="es" href={`https://ensuc.com.br/${rootSlug}-es`} />
+    <link rel="alternate" hreflang="x-default" href={`https://ensuc.com.br/${rootSlug}`} />
+
     <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
   </Fragment>
 
   <article class="article-header">
     <div class="breadcrumb">
-      <a href="/">Home</a> › <a href="/blog">Blog</a> › <span>{badge}</span>
+      <a href="/">{ui.home}</a> › <a href="/blog">{ui.blog}</a> › <span>{badge}</span>
     </div>
     <span class="post-badge">{badge}</span>
     <h1>{title}</h1>
     <p class="post-lead">{description}</p>
     <div class="post-meta-bar">
-      <span>Publicado por <strong>{author}</strong></span>
+      <span>{ui.publishedBy} <strong>{author}</strong></span>
       <span>•</span>
       <span>{formattedDate}</span>
       <span>•</span>
@@ -111,9 +166,9 @@ const schemaData = {
   </section>
 
   <section class="cta-strip">
-    <h2>Pronto para posicionar sua empresa<br /><em>no mercado de carbono?</em></h2>
-    <p>A equipe técnica da ENSUC avalia seu projeto ou desenha sua estratégia de compensação com rigor técnico e conformidade regulatória.</p>
-    <a href="/#contato" class="btn-p">Falar com Especialistas ENSUC →</a>
+    <h2>{ui.ctaTitle}<br /><em>{ui.ctaSubtitle}</em></h2>
+    <p>{ui.ctaDesc}</p>
+    <a href="/#contato" class="btn-p">{ui.ctaBtn}</a>
   </section>
 </BaseLayout>
 
@@ -256,6 +311,36 @@ const schemaData = {
     font-size: 1.15rem;
     color: var(--white);
     line-height: 1.7;
+  }
+
+  :global(.post-content table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    border: 1px solid var(--border);
+  }
+
+  :global(.post-content th) {
+    background: var(--forest);
+    padding: 12px 16px;
+    text-align: left;
+    font-family: var(--fa);
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--gold);
+    border-bottom: 1px solid var(--border);
+  }
+
+  :global(.post-content td) {
+    padding: 12px 16px;
+    border-bottom: 1px solid rgba(201, 168, 76, 0.1);
+    color: var(--gray);
+    font-size: 0.95rem;
+  }
+
+  :global(.post-content tr:hover td) {
+    background: rgba(201, 168, 76, 0.03);
   }
 
   .cta-strip {
