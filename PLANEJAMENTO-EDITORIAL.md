@@ -37,6 +37,7 @@ Para evitar conteúdo repetido e penalizações de SEO no Google:
 | 2026-07-28 | `artigo-mercado-de-carbono-brasil-2026` | `mercado de carbono brasil 2026` | Mercado de carbono no Brasil em 2026: o que mudou e o que esperar | Mercado / SBCE |
 | 2026-08-27 | `artigo-guia-mercado-credito-carbono-brasil` | `guia crédito de carbono propriedades rurais` | Mercado de Crédito de Carbono: Guia para Propriedades Rurais | Produtores / PAA |
 | 2026-09-30 | `artigo-cotacao-credito-carbono-2026`<br>*(+ versões `-en` e `-es`)* | `cotação credito de carbono` / `carbon credit price` / `cotización` | Cotação do Crédito de Carbono: Quanto Vale 1 tCO₂e em 2026? *(Trilíngue PT/EN/ES)* | Mercado / Cotação Global |
+| 2026-10-02 | `artigo-venda-de-carbono-propriedades-rurais-florestas`<br>*(+ versões `-en` e `-es`)* | `venda de carbono` / `crédito de carbono propriedades rurais` | Venda de Carbono em Áreas Rurais: Guia de Monetização Florestal *(Trilíngue PT/EN/ES)* | Produtores & Terras / PAA |
 
 ---
 
@@ -44,9 +45,8 @@ Para evitar conteúdo repetido e penalizações de SEO no Google:
 
 | Data Prevista | Dia | Palavra-Chave GSC Alvo | Pauta Proposta & Ângulo Inédito | CTA de Conversão |
 | :--- | :--- | :--- | :--- | :--- |
-| **Próxima** | **Quarta** | `mercado regulado de carbono` | **Mercado Regulado de Carbono (SBCE): Prazos de Transição e Impacto para Empresas Acima de 25k tCO₂e**<br>*(Ângulo: governança corporativa, penalidades de descumprimento e estratégias de antecipação).* | `/mercado` e `/marco` |
-| **Seguinte** | **Sexta** | `venda de carbono` / `compensar emissões de carbono` | **Venda de Carbono na Prática: Como Proprietários Rurais Estruturam e Vendem Créditos de Áreas Nativas**<br>*(Ângulo: contratos futuros, etapas de certificação e segurança para o comprador corporativo).* | `/paa` e `/#contato` |
-| **Seguinte** | **Segunda** | `bioma brasil` / `bioma brasileiro` | **Biomas Brasileiros e a Geração de Créditos: Por Que a Caatinga e o Cerrado Estão Ganhando Espaço**<br>*(Ângulo: além da Amazônia — o potencial inexplorado dos biomas secos e savânicos).* | `/biomas` |
+| **Próxima** | **Segunda** | `bioma brasil` / `bioma brasileiro` | **Biomas Brasileiros e a Geração de Créditos: Por Que a Caatinga e o Cerrado Estão Ganhando Espaço**<br>*(Ângulo: além da Amazônia — o potencial inexplorado dos biomas secos e savânicos).* | `/biomas` |
+| **Seguinte** | **Quarta** | `mercado regulado de carbono` | **Mercado Regulado de Carbono (SBCE): Prazos de Transição e Impacto para Empresas Acima de 25k tCO₂e**<br>*(Ângulo: governança corporativa, penalidades de descumprimento e estratégias de antecipação).* | `/mercado` e `/marco` |
 
 ---
 
