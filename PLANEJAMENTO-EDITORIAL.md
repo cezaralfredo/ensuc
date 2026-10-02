@@ -4,13 +4,15 @@ Este documento governa a esteira de pesquisa, redação, geração de imagens e 
 
 ---
 
-## 1. Calendário e Frequência (Modo Assistido — 3x por semana)
+## 1. Calendário e Frequência Editorial (Grade Temática Expandida)
 
-| Dia da Semana | Macro-Tema | Clusters do GSC Alvo | Página de Conversão no Site |
+| Eixo Editorial | Macro-Tema de Inteligência | Tópicos & Tecnologias Emergentes | Página de Conversão no Site |
 | :--- | :--- | :--- | :--- |
-| **🗓️ Segunda-feira** | **Cotação, Preços & Mercado Financeiro** | `cotação credito de carbono`, `quanto vale um credito de carbono`, `crédito de carbono valor`, `mercado de carbono no mundo` | [Simulador de Carbono](/simulador) |
-| **🗓️ Quarta-feira** | **Regulação, SBCE & Políticas Públicas** | `mercado regulado de carbono`, `mercado de carbono no brasil`, `mercados de carbono`, Lei 15.042, decretos | [Mercado](/mercado) e [Marco Legal](/marco) |
-| **🗓️ Sexta-feira** | **Monetização de Terras & Biomas** | `venda de carbono`, `+venda +carbono`, `bioma brasil`, `bioma brasileiro`, `compensar emissões de carbono` | [PAA - Projetos Ambientais](/paa) e [Biomas](/biomas) |
+| **🗓️ Finanças Climáticas & Cotações** | **Mercado Financeiro, Preços e Títulos Verdes** | Cotação spot/futura tCO₂e, CRVEs, Green Bonds, CRAs Verdes, Fiagros sustentáveis, arbitragem e créditos de biodiversidade. | [Simulador de Carbono](/simulador) e [Financiamento](/financiamento) |
+| **🗓️ Governança & Regulação (SBCE)** | **Políticas Públicas, Compliance e Diretrizes Globais** | Lei 15.042/2024, limites acima de 25k tCO₂e, tributação, artigo 6 do Acordo de Paris, CBAM europeu e penalidades. | [Mercado](/mercado) e [Marco Legal](/marco) |
+| **🗓️ Agronegócio & Monetização de Terras** | **Propriedades Rurais, PAA e Serviços Ecossistêmicos** | Contratos de longo prazo (20-30 anos), CAR, regularização fundiária, ILPF (Integração Lavoura-Pecuária-Floresta) e bioinsumos. | [PAA - Projetos em Fazendas](/paa) e [/#contato](/#contato) |
+| **🗓️ Tecnologia, Inovação & Indústria Limpa** | **Transição Energética, Redata, SAF e Carbono Azul** | Combustíveis de aviação (SAF), data centers verdes movidos a energia limpa (Lei ReData), hidrogênio de baixa emissão e manguezais (Blue Carbon). | [Simulador](/simulador) e [/#contato](/#contato) |
+| **🗓️ Biomas & Conservação Estratégica** | **Geografia Ambiental e Preservação Além da Amazônia** | Potencial inexplorado da Caatinga, Cerrado, Mata Atlântica e Pantanal, espécies endêmicas e restauração ecológica ARR. | [Biomas](/biomas) |
 
 ---
 
@@ -41,12 +43,16 @@ Para evitar conteúdo repetido e penalizações de SEO no Google:
 
 ---
 
-## 4. Fila de Próximas Pautas (Sem Duplicidade / Foco no GSC)
+## 4. Fila Expandida de Próximas Pautas (Radar de Alta Oportunidade)
 
-| Data Prevista | Dia | Palavra-Chave GSC Alvo | Pauta Proposta & Ângulo Inédito | CTA de Conversão |
+| Prioridade | Eixo Temático | Palavra-Chave GSC Alvo | Pauta Proposta & Ângulo Inédito | CTA de Conversão |
 | :--- | :--- | :--- | :--- | :--- |
-| **Próxima** | **Segunda** | `bioma brasil` / `bioma brasileiro` | **Biomas Brasileiros e a Geração de Créditos: Por Que a Caatinga e o Cerrado Estão Ganhando Espaço**<br>*(Ângulo: além da Amazônia — o potencial inexplorado dos biomas secos e savânicos).* | `/biomas` |
-| **Seguinte** | **Quarta** | `mercado regulado de carbono` | **Mercado Regulado de Carbono (SBCE): Prazos de Transição e Impacto para Empresas Acima de 25k tCO₂e**<br>*(Ângulo: governança corporativa, penalidades de descumprimento e estratégias de antecipação).* | `/mercado` e `/marco` |
+| **Pauta 1** | Biomas & Terras | `bioma brasil` / `bioma caatinga carbono` | **Biomas Brasileiros Além da Amazônia: Como a Caatinga e o Cerrado Viraram Foco de Fundos de Carbono**<br>*(Ângulo: alta taxa de retenção radicular, cobenefícios sociais e baixo custo fundiário de implantação).* | `/biomas` e `/paa` |
+| **Pauta 2** | Regulação & SBCE | `mercado regulado de carbono` / `lei 15042 sbce` | **Empresas Acima de 25k tCO₂e: O Calendário de Fiscalização do SBCE e Estratégias de Compliance Antecipado**<br>*(Ângulo: governança corporativa, penalidades de descumprimento e montagem de portfólio defensivo).* | `/marco` e `/mercado` |
+| **Pauta 3** | Finanças Verdes | `financiamento verde agro` / `cra verde carbono` | **CRA Verde e Fiagro Sustentável: Como Produtores Financiam a Restauração Florestal com Juros Reduzidos**<br>*(Ângulo: estruturação no mercado de capitais combinando yield agrícola e receita futura de CRVE).* | `/financiamento` e `/simulador` |
+| **Pauta 4** | Indústria & Inovação | `data center verde brasil` / `inteligencia artificial energia limpa` | **Data Centers Verdes e IA: Por Que Gigantes Tech Estão Contratando Créditos de Remoção no Brasil**<br>*(Ângulo: a demanda colossal por energia limpa contínua e remoções de carbono de alta integridade).* | `/simulador` e `/#contato` |
+| **Pauta 5** | Agro Regenerativo | `carbono no solo agronegocio` / `plantio direto carbono` | **Carbono no Solo: Como Práticas de Plantio Direto e Bioinsumos Criam Ativos Monetizáveis no Agro**<br>*(Ângulo: MRV com satélites e sensores de solo sem interromper a safra comercial).* | `/paa` |
+| **Pauta 6** | Mercados Globais | `carbono azul brasil` / `blue carbon manguezais` | **Carbono Azul (Blue Carbon): A Nova Corrida pelos Manguezais e Costas Brasileiras**<br>*(Ângulo: ecossistemas costeiros que estocam até 5x mais carbono por hectare que florestas terrestres).* | `/biomas` |
 
 ---
 

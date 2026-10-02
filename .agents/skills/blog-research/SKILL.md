@@ -40,10 +40,12 @@ Antes de qualquer busca ou redação, o agente DEVE verificar a integridade da b
 
 Após aprovar a pauta sem risco de duplicidade, realizar busca direcionada para enriquecer o texto com dados reais e recentes:
 
-### Fontes-Alvo Prioritárias:
-* **Regulação e Políticas Públicas:** Agência Senado, Agência Câmara, Diário Oficial da União (DOU), Ministério da Fazenda, Ministério do Meio Ambiente e Mudança do Clima (MMA).
-* **Mercado Nacional, Agro e Energia:** EPBR, Valor Econômico (ESG), Notícias Agrícolas, Canal Rural, NovaCana, CEBDS, B3.
-* **Padrões Globais, Preços e Carbono:** Ecosystem Marketplace, Carbon Pulse, Verra (VCS), Gold Standard, BloombergNEF, S&P Global Platts, IATA.
+### Fontes-Alvo Prioritárias por Cluster:
+* **Regulação e Políticas Públicas:** Agência Senado, Agência Câmara, Diário Oficial da União (DOU), Ministério da Fazenda, Ministério do Meio Ambiente e Mudança do Clima (MMA), CVM.
+* **Mercado Financeiro, Títulos Verdes & Agro:** B3, ANBIMA, CEBDS, Valor Econômico (ESG), Notícias Agrícolas, Canal Rural, NovaCana, EPBR.
+* **Pesquisa Agronômica & Solo:** Embrapa, Esalq/USP, IAC, Instituto Escolhas.
+* **Padrões Globais, Preços e Carbono:** Ecosystem Marketplace, Carbon Pulse, Verra (VCS), Gold Standard, BloombergNEF, S&P Global Platts, IATA, Sylvera.
+* **Inovação, Tech Verde & Blue Carbon:** ABES, Brasscom, Painel Brasileiro de Mudanças Climáticas (PBMC), IEA (International Energy Agency).
 
 ### Critérios de Extração de Dados:
 * **Dados Numéricos e Cotações:** Buscar números recentes (preço por tCO₂e, metas percentuais, prazos legais, volumes de financiamento ou áreas em hectares).
