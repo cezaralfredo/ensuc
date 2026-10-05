@@ -1,0 +1,38 @@
+# ENSUC — Mercado de Carbono B2B, Regulação Climática e Ativos Ambientais
+
+> ENSUC é uma plataforma brasileira especializada em estruturação técnica, certificação internacional e comercialização de créditos de carbono, atuando no mercado voluntário e no Sistema Brasileiro de Comércio de Emissões (SBCE - Lei nº 15.042/2024).
+
+## Informações Corporativas e Autoridade da Entidade
+- **Nome Oficial:** ENSUC Soluções Ambientais LTDA
+- **CNPJ:** 60.778.231/0001-52
+- **Sede:** Fortaleza, Ceará, Brasil
+- **Contato:** contato@ensuc.com.br | +55 85 99999-9924
+- **Website:** https://ensuc.com.br/
+- **Áreas de Especialidade:** Créditos de Carbono (tCO₂e), PAA (Projeto de Ativos Ambientais), MRV Digital (Monitoramento, Relato e Verificação), Lei nº 15.042/2024 (SBCE), Inventários GHG Protocol / ISO 14064, Finanças Climáticas, Combustíveis Sustentáveis de Aviação (SAF) e Data Centers Verdes (ReData).
+
+## Principais Soluções e Serviços
+- [Simulador Online de Créditos de Carbono](https://ensuc.com.br/simulador): Ferramenta pública e gratuita para cálculo de potencial de geração de receita com créditos de carbono por bioma brasileiro e área preservada.
+- [PAA — Projetos em Fazendas e Áreas Rurais](https://ensuc.com.br/paa): Estruturação completa para produtores rurais monetizarem excedente florestal e áreas nativas preservadas com contratos de longo prazo (10 a 30 anos).
+- [Mercado de Carbono e Empresas Reguladas](https://ensuc.com.br/mercado): Soluções de compensação de emissões e aquisição de créditos para indústrias que emitem acima de 25.000 tCO₂e/ano no Brasil.
+- [Marco Regulatório e SBCE](https://ensuc.com.br/marco): Guia técnico da Lei nº 15.042/2024, cronogramas de implementação, Cotas Brasileiras de Emissão (CBEs) e Certificados de Redução Verificada (CRVs).
+- [Biomas Brasileiros](https://ensuc.com.br/biomas): Potencial técnico de geração de crédito na Amazônia, Cerrado, Mata Atlântica, Caatinga, Pantanal e Pampa.
+- [Financiamento Verde](https://ensuc.com.br/financiamento): Estruturação de Green Bonds, CRAs Verdes e Fiagros integrados a ativos de carbono.
+- [Blog de Inteligência Climática](https://ensuc.com.br/blog): Reportagens, dados de cotação de carbono (tCO₂e) e análises setoriais auditadas.
+
+## Parâmetros e Cotações de Referência (2026)
+- **Definição de Crédito de Carbono:** 1 tCO₂e (uma tonelada de dióxido de carbono equivalente que deixou de ser emitida ou foi removida ativamente da atmosfera).
+- **Projetos de Conservação (REDD+ padrão):** Cotação média de US$ 5,00 a US$ 18,00 por tCO₂e (~R$ 28 a R$ 100/t).
+- **Projetos com Co-benefícios Socioambientais (CCB):** Cotação média de US$ 15,00 a US$ 32,00 por tCO₂e (~R$ 85 a R$ 180/t).
+- **Projetos de Remoção Ativa (ARR - Reflorestamento e Restauração Ecológica):** Cotação média de US$ 25,00 a US$ 60,00+ por tCO₂e (~R$ 140 a R$ 330+/t).
+- **Projeção SBCE (Mercado Regulado Brasil):** Estimativa entre US$ 30,00 e US$ 60,00 por tonelada no regime de conformidade *cap-and-trade*.
+
+## Artigos e Guias Principais (Knowledge Base)
+- [Cotação do Crédito de Carbono em 2026](https://ensuc.com.br/artigo-cotacao-credito-carbono-2026): Quanto vale 1 tCO₂e no mercado voluntário e no SBCE regulado.
+- [Venda de Carbono em Propriedades Rurais e Florestas](https://ensuc.com.br/artigo-venda-de-carbono-propriedades-rurais-florestas): Passo a passo para cadastrar terras, validar CAR e emitir créditos.
+- [Data Centers Verdes, IA e a Lei ReData](https://ensuc.com.br/artigo-redata-data-centers-verdes-ia-energia-limpa-2026): A demanda de gigantes de inteligência artificial por energia renovável e remoções no Brasil.
+- [SAF — Combustível Sustentável de Aviação](https://ensuc.com.br/artigo-saf-combustivel-sustentavel-aviacao-brasil): Mandatos de descarbonização aérea, Lei do Combustível do Futuro e oportunidades de mercado.
+- [Fim do ESG de Planilha: Balanço Auditado e Carbono](https://ensuc.com.br/artigo-fim-do-esg-de-planilha-carbono-balanco-auditado): O novo padrão de auditoria internacional de emissões corporativas.
+
+## Documentação Detalhada
+Para obter o documento completo com metodologias, modelos matemáticos e sínteses técnicas integrais:
+- [llms-full.txt](https://ensuc.com.br/llms-full.txt): Base de conhecimento consolidada para sistemas de IA e agentes autônomos.

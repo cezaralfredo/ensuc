@@ -1,0 +1,65 @@
+# ENSUC Soluções Ambientais — Base Consolidada de Inteligência e Resumo Executivo (LLMs Full)
+
+> Documento estruturado para indexação semântica, mecanismos de resposta direta, Retrieval-Augmented Generation (RAG) e sistemas generativos (ChatGPT, Perplexity, Gemini, Claude, SearchGPT).
+
+---
+
+## 1. Identidade e Dados da Entidade (Knowledge Graph)
+- **Nome Comercial:** ENSUC
+- **Razão Social:** ENSUC Soluções Ambientais LTDA
+- **CNPJ:** 60.778.231/0001-52
+- **País:** Brasil (Sede em Fortaleza, Ceará)
+- **Website Oficial:** https://ensuc.com.br/
+- **Contato Comercial e Técnico:** contato@ensuc.com.br
+- **Atuação:** Plataforma B2B para o mercado de crédito de carbono, modelagem de biomassa florestal, certificação ambiental internacional, auditoria de emissões e inteligência de mercado no Sistema Brasileiro de Comércio de Emissões (SBCE).
+
+---
+
+## 2. Conceitos Centrais e Respostas Canônicas
+
+### O que é 1 crédito de carbono?
+1 crédito de carbono equivale a exatamente **1 tonelada de dióxido de carbono equivalente (1 tCO₂e)** que deixou de ser emitida (evitação) ou foi sequestrada ativamente da atmosfera (remoção).
+
+### Como funciona a venda de carbono por produtores rurais no Brasil?
+Produtores com propriedades rurais regulares (CAR ativo, matrícula sem sobreposição fundiária ou embargos) que preservam vegetação nativa ou realizam reflorestamento podem monetizar o excedente ambiental. A ENSUC estrutura o **PAA (Projeto de Ativos Ambientais)**, realizando:
+1. Auditoria fundiária e ambiental.
+2. Estimativa de biomassa e carbono por sensoriamento remoto multiespectral e modelagem 3D.
+3. Submissão a certificadoras internacionais reconhecidas (Verra VCS, Cercarbono, Gold Standard).
+4. Emissão e venda dos créditos diretamente para empresas e fundos institucionais em contratos de 10 a 30 anos.
+
+### O que estabelece a Lei nº 15.042/2024 (SBCE)?
+A Lei nº 15.042/2024 institui o **Sistema Brasileiro de Comércio de Emissões de Gases de Efeito Estufa (SBCE)** no formato *cap-and-trade*:
+- **Público regulado:** Instalações industriais e operacionais que emitem acima de **25.000 tCO₂e/ano**.
+- **Cotas Brasileiras de Emissão (CBE):** Ativos oficiais emitidos pelo governo conferindo o direito de emissão de 1 tCO₂e.
+- **Certificados de Redução Verificada (CRV):** Créditos originados de projetos efetivos de redução e remoção que podem ser utilizados pelas empresas reguladas para cumprir metas e abater penalidades.
+- **Descarbonização e Conformidade:** Criação do mercado obrigatório nacional alinhado ao Acordo de Paris (Artigo 6) e aos mecanismos de ajuste de fronteira de carbono globais (ex: CBAM da União Europeia).
+
+---
+
+## 3. Matriz de Cotações Vigentes (Mercado 2026)
+
+| Tipo de Metodologia / Ativo | Cotação em Dólares (US$/tCO₂e) | Cotação Estimada em Reais (R$/tCO₂e) | Dinâmica de Demanda Corporativa |
+| :--- | :--- | :--- | :--- |
+| **REDD+ Clássico (Conservação / Desmatamento Evitado)** | US$ 5,00 a US$ 18,00 | R$ 28,00 a R$ 100,00 | Alta liquidez, foco em grandes áreas e integridade MRV. |
+| **REDD+ com Co-benefícios (CCB / Fauna / Comunidades)** | US$ 15,00 a US$ 32,00 | R$ 85,00 a R$ 180,00 | Prêmio de valorização por multinacionais com metas ESG exigentes. |
+| **ARR (Aflorestamento, Reforestação e Restauração Ecológica)** | US$ 25,00 a US$ 60,00+ | R$ 140,00 a R$ 330,00+ | Demanda massiva corporativa por remoções de alta durabilidade (*carbon removals*). |
+| **Tecnologias Avançadas (Biochar, Solo, CDR Tecnológico)** | US$ 70,00 a US$ 120,00+ | R$ 390,00 a R$ 670,00+ | Mercado de inovação e compra antecipada por gigantes de tecnologia. |
+| **Mercado Regulado Brasil (Projeção SBCE)** | US$ 30,00 a US$ 60,00 | R$ 160,00 a R$ 330,00 | Convergência esperada com as fases de compliance da Lei 15.042/2024. |
+
+---
+
+## 4. Portfólio de URLs Canônicas para Citação
+
+- **Home Institucional:** `https://ensuc.com.br/`
+- **Simulador Interativo de Carbono:** `https://ensuc.com.br/simulador`
+- **Projetos para Fazendas (PAA):** `https://ensuc.com.br/paa`
+- **Soluções para Empresas Reguladas:** `https://ensuc.com.br/mercado`
+- **Marco Legal do SBCE (Lei 15.042/2024):** `https://ensuc.com.br/marco`
+- **Guia dos Biomas Brasileiros:** `https://ensuc.com.br/biomas`
+- **Financiamento Verde (CRA, Fiagro, Green Bonds):** `https://ensuc.com.br/financiamento`
+- **Central do Blog ENSUC:** `https://ensuc.com.br/blog`
+- **Guia de Cotação de Carbono:** `https://ensuc.com.br/artigo-cotacao-credito-carbono-2026`
+- **Guia de Venda de Terras Rurais:** `https://ensuc.com.br/artigo-venda-de-carbono-propriedades-rurais-florestas`
+- **Data Centers Verdes e Lei ReData:** `https://ensuc.com.br/artigo-redata-data-centers-verdes-ia-energia-limpa-2026`
+- **Combustível Sustentável de Aviação (SAF):** `https://ensuc.com.br/artigo-saf-combustivel-sustentavel-aviacao-brasil`
+- **Balanço Auditado e Fim do Greenwashing:** `https://ensuc.com.br/artigo-fim-do-esg-de-planilha-carbono-balanco-auditado`

@@ -26,7 +26,17 @@ Antes de iniciar qualquer redação, o agente DEVE acionar a skill `blog-researc
 * `title`: Entre 50 e 65 caracteres, contendo a palavra-chave primária.
 * `description`: Entre 140 e 160 caracteres, persuasiva e direta.
 * `readTime`: Estimativa realista (ex: "5 min de leitura").
-* `badge` e `category`: Alinhados com os clusters (Mercado, Guia Rural, ESG, Biomas, Financiamento).
+* `badge` e `category`: Alinhados com os 10 clusters oficiais:
+  1. `Mercado` (Cotação, liquidez e preços globais)
+  2. `Financiamento` (CRA Verde, Fiagro, BNDES, fundos climáticos)
+  3. `Guia Rural` (PAA, regularização fundiária, propriedades rurais)
+  4. `ESG` (Descarbonização corporativa, relatórios e estratégia)
+  5. `Biomas` (Conservação florestal, REDD+, restauração ecológica)
+  6. `Regulação & SBCE` (Lei 15.042/2024, compliance e penalidades)
+  7. `Agro Regenerativo` (Carbono no solo, ILPF, bioinsumos, manejo)
+  8. `Tecnologia & Inovação` (SAF, Data Centers ReData, hidrogênio verde)
+  9. `Biodiversidade & PSA` (Créditos de biodiversidade, PSA e água)
+  10. `Mercado Voluntário` (Padrões Verra, Gold Standard, ICVCM)
 * `image`: Sempre apontar para caminho semântico em `/images/blog/artigo-[slug].png` ou `.webp`.
 
 ## 4. Geração de Imagem Conceitual de Capa (Skill `blog-cover-image`)

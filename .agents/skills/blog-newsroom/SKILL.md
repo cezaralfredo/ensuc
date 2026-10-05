@@ -50,10 +50,11 @@ A execução da esteira jornalística divide-se em 6 fases encadeadas:
 1. Escrever o arquivo `src/content/blog/artigo-[slug].md` contendo:
    * **Frontmatter completo** (title, description, datePublished, author, image, badge, category, readTime, keywords).
    * **Lead jornalístico** forte e analítico.
-   * **Box "Em Poucas Linhas":** 3 destaques executivos em bullet points.
-   * **Tabela de Dados:** Comparativo ou cronograma estruturado.
+   * **Box "Em Poucas Linhas":** 3 destaques executivos em bullet points (otimizado para síntese de IA/GEO).
+   * **Diretriz GEO (Direct Answer):** Primeiras 2 linhas de cada seção respondendo de forma factual e citável a questão do subtítulo.
+   * **Tabela de Dados:** Comparativo ou cronograma estruturado com números precisos.
    * **Links Internos ENSUC:** Mínimo de 3 links de conversão (`/simulador`, `/paa`, `/biomas`, `/marco`, `/mercado` ou `/#contato`).
-   * **Links Externos:** 2 a 3 citações de fontes primárias.
+   * **Links Externos:** 2 a 3 citações de fontes primárias de autoridade.
 
 ---
 

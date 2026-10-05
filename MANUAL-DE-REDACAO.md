@@ -58,3 +58,22 @@ A reportagem deve concluir apontando caminhos práticos para a ação do leitor,
   * *Cota/Permissão:* Direito concedido pelo Estado no mercado regulado para emitir 1 tCO₂e.
 * **Book & Claim:** Mecanismo de contabilidade digital desvinculado do transporte físico da molécula (como no SAF e certificações florestais).
 * **Mercado Voluntário (VCM):** Transações bilaterais ou em balcão entre empresas e desenvolvedores de projetos.
+
+---
+
+## 4. Diretrizes de GEO (Generative Engine Optimization)
+
+Para maximizar a citação, síntese e recomendação dos artigos por motores de inteligência artificial generativa (ChatGPT, Perplexity, Google Gemini, Claude, SearchGPT):
+
+1. **Formato Citatório Direto (Direct Answer First):**
+   * Cada subtítulo (`h2` e `h3`) deve iniciar com uma resposta objetiva, factual e autossuficiente nas primeiras 2 linhas antes de aprofundar na análise.
+   * Evitar introduções vagas que adiam a entrega da informação.
+2. **Atribuição Numérica Precisa (Information Gain):**
+   * IAs priorizam fontes que trazem números concretos, fórmulas ou cronogramas com atribuição clara (ex: *"segundo o Artigo 14 da Lei 15.042/2024..."*, *"com cotação entre US$ 25 e US$ 60 por tCO₂e segundo levantamento da ENSUC..."*).
+3. **Padrão de Resumo em Tópicos:**
+   * O box executivo **"Em Poucas Linhas"** deve conter sentenças completas que funcionem sozinhas se recortadas por um LLM.
+4. **FAQ Semântica Integrada:**
+   * Sempre que a pauta envolver dúvidas práticas de tomadores de decisão, incluir uma seção de perguntas frequentes estruturadas em tom coloquial de busca e respostas inequívocas.
+5. **Entidades Primárias Conectadas:**
+   * Citar explicitamente termos da ontologia de mercado: siglas com expansão, normas, leis e nomes das certificadoras globais (Verra, Cercarbono, Gold Standard, SBCE, CVM, B3).
+
