@@ -4,29 +4,38 @@ import ArticleLayout from '../layouts/ArticleLayout.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
+  const allSlugs = new Set(posts.map((p) => (p.slug ?? p.id).replace(/\.(md|mdx)$/, '')));
+
   return posts.map((post) => {
     // Normaliza slug removendo extensão se presente
     const slug = (post.slug ?? post.id).replace(/\.(md|mdx)$/, '');
+    const baseSlug = slug.replace(/-(en|es)$/, '');
+
+    const translations: { pt?: string; en?: string; es?: string } = {};
+    if (allSlugs.has(baseSlug)) {
+      translations.pt = `/${baseSlug}`;
+    }
+    if (allSlugs.has(`${baseSlug}-en`)) {
+      translations.en = `/${baseSlug}-en`;
+    }
+    if (allSlugs.has(`${baseSlug}-es`)) {
+      translations.es = `/${baseSlug}-es`;
+    }
+
     return {
       params: { slug },
-      props: { post },
+      props: { post, translations },
     };
   });
 }
 
-const { post } = Astro.props;
+const { post, translations } = Astro.props;
 const slug = (post.slug ?? post.id).replace(/\.(md|mdx)$/, '');
 
 const isEn = slug.endsWith('-en');
 const isEs = slug.endsWith('-es');
 const lang: 'pt' | 'en' | 'es' = isEn ? 'en' : (isEs ? 'es' : ((post.data as any).lang || 'pt'));
 const baseSlug = slug.replace(/-(en|es)$/, '');
-
-const translations = {
-  pt: `/${baseSlug}`,
-  en: `/${baseSlug}-en`,
-  es: `/${baseSlug}-es`,
-};
 
 // Suporte tanto para Astro 4 (post.render()) quanto para Astro 5 (render(post))
 const rendered = typeof (post as any).render === 'function' ? await (post as any).render() : await render(post);

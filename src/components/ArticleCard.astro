@@ -6,9 +6,13 @@ interface Props {
   date: Date;
   badge?: string;
   readTime?: string;
+  translations?: {
+    en?: string;
+    es?: string;
+  };
 }
 
-const { title, description, slug, date, badge = 'Artigo', readTime = '5 min de leitura' } = Astro.props;
+const { title, description, slug, date, badge = 'Artigo', readTime = '5 min de leitura', translations } = Astro.props;
 
 const formattedDate = new Intl.DateTimeFormat('pt-BR', {
   day: 'numeric',
@@ -29,7 +33,24 @@ const href = `/${slug}`;
   </h3>
   <p class="card-desc">{description}</p>
   <div class="card-foot">
-    <span class="card-read">{readTime}</span>
+    <div class="card-foot-left">
+      <span class="card-read">{readTime}</span>
+      {translations && (translations.en || translations.es) && (
+        <span class="card-lang-tags">
+          <span class="lang-tag-active" title="Edição em Português">PT</span>
+          {translations.en && (
+            <a href={translations.en} class="lang-tag-link" title="Read English edition">
+              EN
+            </a>
+          )}
+          {translations.es && (
+            <a href={translations.es} class="lang-tag-link" title="Leer edición en Español">
+              ES
+            </a>
+          )}
+        </span>
+      )}
+    </div>
     <a href={href} class="card-link" aria-label={`Ler artigo: ${title}`}>
       Ler Artigo <span>→</span>
     </a>
@@ -136,6 +157,45 @@ const href = `/${slug}`;
     padding-top: 14px;
     font-family: var(--fa);
     font-size: 0.75rem;
+  }
+
+  .card-foot-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .card-lang-tags {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: rgba(201, 168, 76, 0.08);
+    padding: 2px 6px;
+    border-radius: 2px;
+    border: 1px solid rgba(201, 168, 76, 0.2);
+  }
+
+  .lang-tag-active {
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: var(--gold);
+    letter-spacing: 0.05em;
+  }
+
+  .lang-tag-link {
+    font-size: 0.65rem;
+    font-weight: 500;
+    color: var(--gray);
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    transition: color var(--tr);
+    padding: 0 2px;
+  }
+
+  .lang-tag-link:hover {
+    color: var(--gold2);
+    text-decoration: underline;
   }
 
   .card-read {

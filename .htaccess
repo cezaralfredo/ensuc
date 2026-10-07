@@ -9,6 +9,14 @@ RewriteRule ^(.*)$ https://ensuc.com.br/$1 [L,R=301]
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
+# Sitemap rewrite
+RewriteRule ^sitemap\.xml$ /sitemap-index.xml [L]
+
+# Normalizar trailing slash (redirecionar URLs com barra final para sem barra, exceto diretórios reais)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} (.+)/$
+RewriteRule ^ %1 [R=301,L]
+
 # Rotas limpas para páginas HTML existentes
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
@@ -21,15 +29,8 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} ^/(artigo-[a-z0-9-]+)$
 RewriteRule ^(.*)$ /$1.html [L]
 
-# Página 404 personalizada
+# Página 404 personalizada (retorna código HTTP 404 real)
 ErrorDocument 404 /404.html
-
-# SPA routing - servir index.html para rotas que não são arquivos reais
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_URI} !^/send-contato\.php
-RewriteCond %{REQUEST_URI} !\.(css|js|png|jpg|jpeg|gif|webp|ico|svg|woff|woff2|ttf|eot|pdf|xml|txt|json)$
-RewriteRule ^(.*)$ /index.html [L]
 
 # Cache para assets estáticos
 <IfModule mod_expires.c>

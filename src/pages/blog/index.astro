@@ -4,6 +4,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 
 const allPosts = await getCollection('blog');
+const allSlugs = new Set(allPosts.map((p) => (p.slug ?? p.id).replace(/\.(md|mdx)$/, '')));
+
 const posts = allPosts
   .filter((p) => {
     const slug = (p.slug ?? p.id).replace(/\.(md|mdx)$/, '');
@@ -83,6 +85,10 @@ const blogSchema = {
       <div class="blog-grid">
         {posts.map((post) => {
           const slug = (post.slug ?? post.id).replace(/\.(md|mdx)$/, '');
+          const translations = {
+            en: allSlugs.has(`${slug}-en`) ? `/${slug}-en` : undefined,
+            es: allSlugs.has(`${slug}-es`) ? `/${slug}-es` : undefined,
+          };
           return (
             <ArticleCard
               title={post.data.title}
@@ -91,6 +97,7 @@ const blogSchema = {
               date={post.data.datePublished}
               badge={post.data.badge}
               readTime={post.data.readTime}
+              translations={translations}
             />
           );
         })}

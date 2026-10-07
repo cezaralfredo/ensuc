@@ -2,12 +2,12 @@
 title: "O Fim do ESG de Planilha: Por que o Carbono Virou Linha de Balanço Auditada no Brasil"
 description: "Entenda como a Resolução 193 da CVM (IFRS S1 e S2) e o CBAM europeu transformaram a contabilidade climática e o custo de capital das empresas brasileiras."
 datePublished: 2026-10-01
-author: "Redação Onda Conecta"
+author: "Redação ENSUC"
 image: "/images/blog/artigo-fim-do-esg-de-planilha-carbono-balanco-auditado.webp"
 badge: "ESG & Sustentabilidade"
 category: "Sustentabilidade"
 readTime: "7 min de leitura"
-keywords: "créditos de carbono, mercado de carbono, ESG, sustentabilidade, descarbonização, Onda Conecta, SBCE"
+keywords: "créditos de carbono, mercado de carbono, ESG, sustentabilidade, descarbonização, balanço auditado, CVM 193, IFRS S1 S2, SBCE, ENSUC"
 ---
 
 Durante anos, a sigla ESG habitou uma zona confortável dentro do mundo corporativo: relatórios de sustentabilidade volumosos em formato PDF, repletos de fotos inspiradoras de reflorestamento e metas voluntárias calculadas em planilhas internas sem auditoria independente. Esse modelo de "sustentabilidade declaratória", contudo, acaba de encontrar seu ponto final definitivo. Com a entrada em vigor obrigatória dos padrões globais **IFRS S1 e S2** — chancelados no Brasil pela **Resolução 193 da Comissão de Valores Mobiliários (CVM)** — e o início da taxação aduaneira pelo mecanismo de carbono europeu (**CBAM**), a métrica climática deixou o departamento de marketing e migrou para as notas explicativas dos balanços patrimoniais.
@@ -42,7 +42,7 @@ No Brasil, onde o agronegócio, a mineração e a manufatura possuem cadeias de 
 - **Risco de Descredenciamento:** Empresas terceirizadas que não conseguirem comprovar a origem de baixo carbono de seus fretes ou matérias-primas correm o risco de perder contratos de fornecimento para concorrentes mais tecnificados.
 - **Integração com o SBCE:** A estruturação da contabilidade corporativa ocorre em paralelo à regulamentação do **Sistema Brasileiro de Comércio de Emissões (SBCE)**, criado pela Lei nº 15.042/2024, que estabelece tetos mandatários para empresas que emitem acima de 25 mil toneladas de CO2 equivalente por ano.
 
-Essa corrida por rastreabilidade e sustentabilidade em infraestruturas industriais dialoga estreitamente com a transição que examinamos na reportagem sobre [os data centers verdes e o consumo de energia limpa pela inteligência artificial](/blog/redata-data-centers-verdes-ia-energia-limpa-2026).
+Essa corrida por rastreabilidade e sustentabilidade em infraestruturas industriais dialoga estreitamente com a transição que examinamos na reportagem sobre [os data centers verdes e o consumo de energia limpa pela inteligência artificial](/artigo-redata-data-centers-verdes-ia-energia-limpa-2026).
 
 
 
@@ -91,4 +91,11 @@ Sua organização já estruturou o inventário de carbono para atender às exig�
 
 ---
 
-> 🔗 **Fonte e Crédito Editorial:** Este artigo foi originalmente apurado e publicado no portal de inteligência e mercado [Onda Conecta](https://ondaconecta.com.br/blog/fim-do-esg-de-planilha-carbono-balanco-auditado/), sob o título *"O Fim do ESG de Planilha: Por que o Carbono Virou Linha de Balanço Auditada no Brasil"*. Acesse a cobertura completa e análises de tendências em [ondaconecta.com.br](https://ondaconecta.com.br/).
+## Estruture o Inventário e Balanço Climático da sua Empresa com a ENSUC
+
+A adequação às normas IFRS e às exigências do SBCE requer parceiros com rigor técnico, modelagem de emissões e governança auditável. 
+
+* **Auditoria e Inventário de Emissões:** Calcule o potencial de redução e compensação no [Simulador de Carbono ENSUC](/simulador).
+* **Conformidade Regulatória:** Entenda os limites de emissão e prazos da Lei 15.042 em nossa seção sobre o [Marco Legal do SBCE](/marco).
+* **Atendimento Especializado:** Fale diretamente com a equipe técnica da ENSUC para desenhar sua estratégia de descarbonização em [/#contato](/#contato).
+

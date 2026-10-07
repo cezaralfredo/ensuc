@@ -1,4 +1,4 @@
-﻿---
+---
 import BaseLayout from './BaseLayout.astro';
 
 interface Props {
@@ -136,11 +136,11 @@ const rootSlug = baseSlug || cleanPath.replace(/^\//, '').replace(/-(en|es)$/, '
   translations={translations}
 >
   <Fragment slot="head">
-    <!-- Hreflang cruzado para os idiomas disponÃ­veis do artigo -->
-    <link rel="alternate" hreflang="pt-BR" href={`https://ensuc.com.br/${rootSlug}`} />
-    <link rel="alternate" hreflang="en" href={`https://ensuc.com.br/${rootSlug}-en`} />
-    <link rel="alternate" hreflang="es" href={`https://ensuc.com.br/${rootSlug}-es`} />
-    <link rel="alternate" hreflang="x-default" href={`https://ensuc.com.br/${rootSlug}`} />
+    <!-- Hreflang cruzado apenas para os idiomas realmente existentes -->
+    {translations?.pt && <link rel="alternate" hreflang="pt-BR" href={`https://ensuc.com.br${translations.pt}`} />}
+    {translations?.en && <link rel="alternate" hreflang="en" href={`https://ensuc.com.br${translations.en}`} />}
+    {translations?.es && <link rel="alternate" hreflang="es" href={`https://ensuc.com.br${translations.es}`} />}
+    {translations?.pt && <link rel="alternate" hreflang="x-default" href={`https://ensuc.com.br${translations.pt}`} />}
 
     <script type="application/ld+json" set:html={JSON.stringify(schemaData)} />
   </Fragment>
@@ -155,15 +155,50 @@ const rootSlug = baseSlug || cleanPath.replace(/^\//, '').replace(/-(en|es)$/, '
     <p class="post-lead">{description}</p>
     <div class="post-meta-bar">
       <span>{ui.publishedBy} <strong>{author}</strong></span>
-      <span>â€¢</span>
+      <span>•</span>
       <span>{formattedDate}</span>
-      <span>â€¢</span>
+      <span>•</span>
       <span>{readTime}</span>
     </div>
+
+    {translations && (translations.en || translations.es) && (
+      <div class="post-lang-bar">
+        <span class="lang-bar-title">{lang === 'pt' ? 'Edições deste artigo:' : (lang === 'es' ? 'Ediciones de este artículo:' : 'Available editions:')}</span>
+        <div class="lang-bar-links">
+          {translations.pt && (
+            <a href={translations.pt} class={`lang-btn ${lang === 'pt' ? 'active' : ''}`}>
+              🇧🇷 Português
+            </a>
+          )}
+          {translations.en && (
+            <a href={translations.en} class={`lang-btn ${lang === 'en' ? 'active' : ''}`}>
+              🇺🇸 English
+            </a>
+          )}
+          {translations.es && (
+            <a href={translations.es} class={`lang-btn ${lang === 'es' ? 'active' : ''}`}>
+              🇪🇸 Español
+            </a>
+          )}
+        </div>
+      </div>
+    )}
   </article>
 
   <section class="post-content">
     <slot />
+
+    {translations && (translations.en || translations.es) && (
+      <div class="article-intl-box">
+        <h4>{lang === 'pt' ? 'Edições Internacionais' : (lang === 'es' ? 'Ediciones Internacionales' : 'International Editions')}</h4>
+        <p>{lang === 'pt' ? 'Este artigo técnico da ENSUC está disponível em múltiplos idiomas para investidores e parceiros globais:' : (lang === 'es' ? 'Este informe técnico de ENSUC está disponible en múltiples idiomas para inversores globales:' : 'This technical ENSUC report is available in multiple languages for global partners and investors:')}</p>
+        <div class="intl-links">
+          {translations.pt && lang !== 'pt' && <a href={translations.pt} class="intl-link">🇧🇷 Versão em Português →</a>}
+          {translations.en && lang !== 'en' && <a href={translations.en} class="intl-link">🇺🇸 Read in English (Global Edition) →</a>}
+          {translations.es && lang !== 'es' && <a href={translations.es} class="intl-link">🇪🇸 Leer en Español (Edición LATAM) →</a>}
+        </div>
+      </div>
+    )}
   </section>
 
   <section class="cta-strip">
@@ -387,6 +422,102 @@ const rootSlug = baseSlug || cleanPath.replace(/^\//, '').replace(/-(en|es)$/, '
     max-width: 560px;
     margin: 0 auto 2rem;
     line-height: 1.75;
+  }
+
+  /* Language Switcher Bar inside Article Header */
+  .post-lang-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 1.2rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(201, 168, 76, 0.15);
+    flex-wrap: wrap;
+  }
+
+  .lang-bar-title {
+    font-family: var(--fa);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--gray);
+  }
+
+  .lang-bar-links {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .lang-btn {
+    font-family: var(--fa);
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    color: var(--gray);
+    background: rgba(201, 168, 76, 0.08);
+    border: 1px solid rgba(201, 168, 76, 0.25);
+    padding: 4px 10px;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: all var(--tr);
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .lang-btn:hover, .lang-btn.active {
+    background: var(--gold);
+    color: var(--deep);
+    border-color: var(--gold);
+    font-weight: 600;
+  }
+
+  /* International Cross-link Box at bottom of article */
+  .article-intl-box {
+    margin: 3rem 0 1rem;
+    padding: 24px 28px;
+    background: rgba(30, 77, 53, 0.2);
+    border: 1px solid rgba(201, 168, 76, 0.25);
+    border-left: 3px solid var(--gold);
+    border-radius: 2px;
+  }
+
+  .article-intl-box h4 {
+    font-family: var(--fd);
+    font-size: 1.25rem;
+    color: var(--white);
+    margin-bottom: 0.5rem;
+  }
+
+  .article-intl-box p {
+    font-size: 0.95rem;
+    color: var(--gray);
+    margin-bottom: 1.2rem;
+    line-height: 1.6;
+  }
+
+  .intl-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .intl-link {
+    font-family: var(--fa);
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    color: var(--gold);
+    text-decoration: none;
+    transition: color var(--tr);
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .intl-link:hover {
+    color: var(--gold2);
+    text-decoration: underline;
   }
 </style>
 

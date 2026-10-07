@@ -2,12 +2,12 @@
 title: "El Fin del ESG de Papel: Por Qué el Carbono Pasó a Ser un Pasivo Contable Auditado"
 description: "Descubra cómo la Resolución 193 de la CVM (IFRS S1 y S2) y el CBAM europeo transformaron la contabilidad climática y el costo de capital de las empresas."
 datePublished: 2026-10-01
-author: "Redação Onda Conecta"
+author: "Redação ENSUC"
 image: "/images/blog/artigo-fim-do-esg-de-planilha-carbono-balanco-auditado.webp"
 badge: "ESG y Sostenibilidad"
 category: "Sustentabilidade"
 readTime: "7 min de lectura"
-keywords: "créditos de carbono, mercado de carbono, ESG, sustentabilidade, descarbonização, Onda Conecta, SBCE"
+keywords: "créditos de carbono, mercado de carbono, ESG, sustentabilidad, descarbonización, IFRS S1 S2, balance auditado, SBCE, ENSUC"
 ---
 
 Durante años, las siglas ESG habitaron una cómoda zona de confort en el mundo corporativo: extensos informes anuales en formato PDF repletos de imágenes de reforestación y metas voluntarias calculadas en hojas de cálculo internas sin auditoría independiente. Ese modelo de "sostenibilidad declarativa", sin embargo, ha llegado a su fin definitivo. Con la entrada en vigor obligatoria de las normas internacionales **IFRS S1 e IFRS S2** —respaldadas en mercados clave como Brasil a través de la **Resolución 193 de la Comisión de Valores Mobiliarios (CVM)**— y la aplicación arancelaria del mecanismo de carbono europeo (**CBAM**), las métricas climáticas salieron de los departamentos de relaciones públicas para integrarse directamente en las notas de los balances financieros auditados.
@@ -42,7 +42,7 @@ En economías agroindustriales y manufactureras con amplias cadenas de suministr
 - **Riesgo de Pérdida de Contratos:** Empresas contratistas que no logren certificar la baja intensidad de carbono de sus servicios o insumos se arriesgan a ser reemplazadas por competidores con mejor trazabilidad tecnológica.
 - **Conexión con los Mercados Regulados de Carbono:** Esta contabilidad corporativa avanza en paralelo con normativas nacionales como el Sistema Brasileño de Comercio de Emisiones (**SBCE**, Ley 15.042), que fija límites obligatorios para instalaciones que emitan más de 25.000 toneladas anuales de dióxido de carbono.
 
-Esta transformación hacia una infraestructura productiva transparente se alinea con los avances que analizamos en nuestro informe sobre [los centros de datos verdes y el consumo de energía limpia en la inteligencia artificial](/blog/redata-data-centers-verdes-ia-energia-limpa-2026-es).
+Esta transformación hacia una infraestructura productiva transparente se alinea con los avances que analizamos en nuestro informe sobre [los centros de datos verdes y el consumo de energía limpia en la inteligencia artificial](/artigo-redata-data-centers-verdes-ia-energia-limpa-2026-es).
 
 
 
@@ -91,4 +91,11 @@ La integración de la contabilidad climática en los balances tradicionales clau
 
 ---
 
-> 🔗 **Fuente y Crédito Editorial:** Este artículo fue investigado y publicado originalmente en el portal de tendencias y mercado [Onda Conecta](https://ondaconecta.com.br/es/blog/fim-do-esg-de-planilha-carbono-balanco-auditado-es/), con el título *"El Fin del ESG de Papel: Por Qué el Carbono Pasó a Ser un Pasivo Contable Auditado"*. Acceda a la cobertura completa y análisis estratégicos en [ondaconecta.com.br](https://ondaconecta.com.br/).
+## Estructure el Inventario y Balance Climático de su Empresa con ENSUC
+
+La adecuación a las normas IFRS y a los requisitos regulatorios exige rigor técnico, modelado de emisiones y gobernanza auditable.
+
+* **Diagnóstico de Emisiones:** Calcule el potencial de compensación y créditos en el [Simulador de Carbono ENSUC](/simulador).
+* **Marco Regulatorio:** Conozca los plazos y normas de cumplimiento en nuestra sección de [Regulación Climática](/marco).
+* **Atención Especializada:** Póngase en contacto con el equipo técnico de ENSUC para estructurar su estrategia de descarbonización en [/#contato](/#contato).
+

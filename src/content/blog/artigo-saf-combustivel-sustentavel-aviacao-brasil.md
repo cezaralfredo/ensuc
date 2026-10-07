@@ -2,12 +2,12 @@
 title: "O Fim do Querosene Fóssil? Como o Brasil Lidera a Corrida Global do Combustível Sustentável de Aviação"
 description: "Entenda a regulamentação do SAF e do modelo Book & Claim no Brasil, as metas da aviação até 2037 e os bilhões em investimentos limpos."
 datePublished: 2026-10-01
-author: "Redação Onda Conecta"
+author: "Redação ENSUC"
 image: "/images/blog/artigo-saf-combustivel-sustentavel-aviacao-brasil.webp"
-badge: "ESG & Sustentabilidade"
-category: "Sustentabilidade"
+badge: "Tecnologia & Inovação"
+category: "Tecnologia & Inovação"
 readTime: "7 min de leitura"
-keywords: "créditos de carbono, mercado de carbono, ESG, sustentabilidade, descarbonização, Onda Conecta, SBCE"
+keywords: "créditos de carbono, mercado de carbono, ESG, sustentabilidade, descarbonização, SAF, combustível sustentável de aviação, ProBioQAV, Book & Claim, ENSUC"
 ---
 
 A aviação comercial global responde por cerca de 2,5% das emissões planetárias de dióxido de carbono e enfrenta um dos desafios de descarbonização mais complexos da história humana. Diferente do setor automotivo, onde a eletrificação por baterias já é viável em larga escala, aviões de passageiros que cruzam oceanos dependem de combustíveis de altíssima densidade energética. É exatamente nesse gargalo tecnológico e logístico que o Brasil acaba de se posicionar como o protagonista mais competitivo do planeta.
@@ -46,7 +46,7 @@ Em meados de 2026, a regulamentação do **ProBioQAV** pelo governo brasileiro d
 
 A Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP) e a Agência Nacional de Aviação Civil (ANAC) receberam um prazo de 240 dias para editar as instruções normativas de fiscalização e homologação dos lotes de combustível. Esse arranjo concede segurança jurídica de longo prazo para fundos de infraestrutura e produtoras de biocombustíveis investirem em plantas industriais que levam anos para serem construídas.
 
-Para compreender como as diretrizes ESG se integram aos mercados financeiros, [veja também nossa reportagem sobre o mercado regulado de carbono e transição energética](/blog/mercado-carbono-esg-transicao-energetica-2026).
+Para compreender como as diretrizes ESG se integram aos mercados financeiros, [veja também nossa reportagem sobre o mercado regulado de carbono e transição energética](/artigo-mercado-carbono-esg-transicao-energetica-2026).
 
 ---
 
@@ -71,7 +71,7 @@ A regulamentação do SAF caminha lado a lado com outro grande marco da transiç
 
 O hidrogênio verde é o insumo indispensável para produzir os chamados **e-SAF** (combustíveis sintéticos gerados pela combinação de hidrogênio gerado por eletrólise limpa e carbono capturado da atmosfera). Hubs logísticos de classe mundial, com destaque para o **Complexo Industrial e Portuário do Pecém (Ceará)** e o **Porto do Açu (Rio de Janeiro)**, já concentram memorandos de investimento que somam bilhões de dólares.
 
-Gigantes da energia como a Petrobras, Raízen, Acelen e grupos internacionais estão erguendo biorrefinarias modulares voltadas tanto a abastecer a aviação doméstica quanto a exportar bioquerosene certificado para os mercados europeu e norte-americano, onde as multas por descumprimento de metas ambientais são bilionárias. Para ver como essa infraestrutura atrai também novas indústrias sustentáveis, [leia nosso artigo sobre data centers verdes e energia limpa](/blog/redata-data-centers-verdes-ia-energia-limpa-2026).
+Gigantes da energia como a Petrobras, Raízen, Acelen e grupos internacionais estão erguendo biorrefinarias modulares voltadas tanto a abastecer a aviação doméstica quanto a exportar bioquerosene certificado para os mercados europeu e norte-americano, onde as multas por descumprimento de metas ambientais são bilionárias. Para ver como essa infraestrutura atrai também novas indústrias sustentáveis, [leia nosso artigo sobre data centers verdes e energia limpa](/artigo-redata-data-centers-verdes-ia-energia-limpa-2026).
 
 ---
 
@@ -114,4 +114,11 @@ Você estaria disposto a voar em aviões movidos a combustíveis limpos mesmo co
 
 ---
 
-> 🔗 **Fonte e Crédito Editorial:** Este artigo foi originalmente apurado e publicado no portal de inteligência e mercado [Onda Conecta](https://ondaconecta.com.br/blog/saf-combustivel-sustentavel-aviacao-brasil/), sob o título *"O Fim do Querosene Fóssil? Como o Brasil Lidera a Corrida Global do Combustível Sustentável de Aviação"*. Acesse a cobertura completa e análises de tendências em [ondaconecta.com.br](https://ondaconecta.com.br/).
+## Estruture seus Ativos e Projetos de Transição Energética com a ENSUC
+
+A expansão de combustíveis sustentáveis e mercados regulados cria novas oportunidades de compensação e geração de ativos climáticos:
+
+* **Simulação de Compensação de Emissões:** Estime volumes de descarbonização no [Simulador de Carbono ENSUC](/simulador).
+* **Compliance e SBCE:** Conheça os enquadramentos regulatórios no [Marco Legal](/marco).
+* **Parcerias Estratégicas:** Fale com a equipe de originação de projetos da ENSUC em [/#contato](/#contato).
+

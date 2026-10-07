@@ -2,12 +2,12 @@
 title: "The End of Spreadsheet ESG: Why Carbon Emissions Became Audited Balance Sheet Liabilities"
 description: "Understand how CVM Resolution 193 (IFRS S1 & S2) and the EU CBAM turned climate accounting and carbon metrics into hard balance sheet audit requirements."
 datePublished: 2026-10-01
-author: "Redação Onda Conecta"
+author: "Redação ENSUC"
 image: "/images/blog/artigo-fim-do-esg-de-planilha-carbono-balanco-auditado.webp"
 badge: "ESG & Sustainability"
 category: "Sustentabilidade"
 readTime: "7 min read"
-keywords: "créditos de carbono, mercado de carbono, ESG, sustentabilidade, descarbonização, Onda Conecta, SBCE"
+keywords: "carbon credits, carbon market, ESG, sustainability, decarbonization, IFRS S1 S2, audited balance sheet, SBCE, ENSUC"
 ---
 
 For years, corporate sustainability inhabited a comfortable, self-regulated sanctuary: lengthy annual PDF reports adorned with aspirational reforestation imagery and voluntary reduction targets calculated across internal spreadsheets without independent verification. That era of "declarative sustainability" has officially met its definitive end. With the mandatory enforcement of the **IFRS S1 and S2** global disclosure standards—backed in major emerging economies like Brazil through **CVM Resolution 193**—alongside the operational rollout of the European Union's **Carbon Border Adjustment Mechanism (CBAM)**, climate metrics have vacated the marketing department to become audited footnotes directly inside corporate financial balance sheets.
@@ -42,7 +42,7 @@ In resource-rich and manufacturing economies with deeply distributed supplier ne
 - **Contractual Disqualification Risk:** Contractors and suppliers incapable of verifying the low-carbon credentials of their transport fleets or raw materials face abrupt exclusion in favor of technologically auditable competitors.
 - **National Emissions Trading Interoperability:** Corporate accounting alignment occurs alongside national statutory mechanisms, such as Brazil's regulated emissions trading system (**SBCE** under Law 15,042), which establishes statutory emissions caps for facilities generating over 25,000 tons of CO2 equivalent annually.
 
-This systemic race for verified low-emission infrastructure mirrors the critical transformations we recently evaluated in our feature on [green data centers and clean energy procurement for AI workloads](/blog/redata-data-centers-verdes-ia-energia-limpa-2026-en).
+This systemic race for verified low-emission infrastructure mirrors the critical transformations we recently evaluated in our feature on [green data centers and clean energy procurement for AI workloads](/artigo-redata-data-centers-verdes-ia-energia-limpa-2026-en).
 
 
 
@@ -91,4 +91,11 @@ Has your enterprise structured its carbon accounting systems to satisfy emerging
 
 ---
 
-> 🔗 **Editorial Source & Authority:** This article was originally researched and published by the intelligence and innovation portal [Onda Conecta](https://ondaconecta.com.br/en/blog/fim-do-esg-de-planilha-carbono-balanco-auditado-en/), under the title *"The End of Spreadsheet ESG: Why Carbon Emissions Became Audited Balance Sheet Liabilities"*. Explore in-depth market analyses and strategic trends at [ondaconecta.com.br](https://ondaconecta.com.br/).
+## Structure Your Corporate Carbon Balance Sheet with ENSUC
+
+Complying with IFRS climate disclosure standards and regulated cap-and-trade systems demands high technical rigor, emissions modeling, and verifiable governance.
+
+* **Carbon Inventory & Offsetting:** Calculate reduction scenarios using the [ENSUC Carbon Simulator](/simulador).
+* **Regulatory Compliance:** Understand Brazilian and global carbon market thresholds in our [Regulatory Compliance Guide](/marco).
+* **Expert Consultation:** Connect with ENSUC's carbon engineers and analysts to design your transition roadmap at [/#contato](/#contato).
+
