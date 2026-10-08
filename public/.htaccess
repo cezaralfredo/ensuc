@@ -9,8 +9,9 @@ RewriteRule ^(.*)$ https://ensuc.com.br/$1 [L,R=301]
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-# Sitemap rewrite
-RewriteRule ^sitemap\.xml$ /sitemap-index.xml [L]
+# Sitemap rewrite (se não existir arquivo físico)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^sitemap\.xml$ /sitemap-0.xml [L]
 
 # Normalizar trailing slash (redirecionar URLs com barra final para sem barra, exceto diretórios reais)
 RewriteCond %{REQUEST_FILENAME} !-d
