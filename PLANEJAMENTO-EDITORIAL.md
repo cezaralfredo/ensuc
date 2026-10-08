@@ -18,18 +18,18 @@ Este documento governa a esteira de pesquisa, redação, geração de imagens e 
 
 Todo artigo publicado deve ter o campo `category` associado a uma das 10 categorias consolidadas:
 
-| # | Categoria (`category`) | Foco Editorial e Temático | Destino Principal de Conversão |
-| :-: | :--- | :--- | :--- |
-| 1 | **`Mercado`** | Cotação global, preços e liquidez tCO₂e | `/simulador` |
-| 2 | **`Financiamento`** | CRA Verde, Fiagro, BNDES, ABC Ambiental e fundos climáticos | `/financiamento` |
-| 3 | **`Guia Rural`** | PAA, regularização fundiária e geração de renda para fazendas | `/paa` |
-| 4 | **`ESG`** | Estratégia corporativa, descarbonização e relatórios auditados | `/#contato` |
-| 5 | **`Biomas`** | Conservação florestal, REDD+ e restauração ecológica por bioma | `/biomas` |
-| 6 | **`Regulação & SBCE`** | Marco regulatório, Lei nº 15.042/2024 e compliance | `/marco` |
-| 7 | **`Agro Regenerativo`** | Carbono no solo, ILPF, bioinsumos e pecuária sustentável | `/paa` |
-| 8 | **`Tecnologia & Inovação`** | SAF, Data Centers Verdes (ReData), hidrogênio e indústria limpa | `/simulador` |
-| 9 | **`Biodiversidade & PSA`** | Créditos de biodiversidade, serviços ecossistêmicos e recursos hídricos | `/biomas` |
-| 10 | **`Mercado Voluntário`** | Verra, Gold Standard, ICVCM, integridade e compradores globais | `/mercado` |
+|  #  | Categoria (`category`)      | Foco Editorial e Temático                                               | Destino Principal de Conversão |
+| :-: | :-------------------------- | :---------------------------------------------------------------------- | :----------------------------- |
+|  1  | **`Mercado`**               | Cotação global, preços e liquidez tCO₂e                                 | `/simulador`                   |
+|  2  | **`Financiamento`**         | CRA Verde, Fiagro, BNDES, ABC Ambiental e fundos climáticos             | `/financiamento`               |
+|  3  | **`Guia Rural`**            | PAA, regularização fundiária e geração de renda para fazendas           | `/paa`                         |
+|  4  | **`ESG`**                   | Estratégia corporativa, descarbonização e relatórios auditados          | `/#contato`                    |
+|  5  | **`Biomas`**                | Conservação florestal, REDD+ e restauração ecológica por bioma          | `/biomas`                      |
+|  6  | **`Regulação & SBCE`**      | Marco regulatório, Lei nº 15.042/2024 e compliance                      | `/marco`                       |
+|  7  | **`Agro Regenerativo`**     | Carbono no solo, ILPF, bioinsumos e pecuária sustentável                | `/paa`                         |
+|  8  | **`Tecnologia & Inovação`** | SAF, Data Centers Verdes (ReData), hidrogênio e indústria limpa         | `/simulador`                   |
+|  9  | **`Biodiversidade & PSA`**  | Créditos de biodiversidade, serviços ecossistêmicos e recursos hídricos | `/biomas`                      |
+| 10  | **`Mercado Voluntário`**    | Verra, Gold Standard, ICVCM, integridade e compradores globais          | `/mercado`                     |
 
 ---
 
@@ -49,15 +49,16 @@ Para evitar conteúdo repetido e penalizações de SEO no Google:
 
 ## 3. Histórico de Publicações Realizadas
 
-| Data       | Slug                                                                                   | Palavra-Chave Primária                                              | Título do Artigo                                                                       | Categoria / Foco          |
-| :--------- | :------------------------------------------------------------------------------------- | :------------------------------------------------------------------ | :------------------------------------------------------------------------------------- | :------------------------ |
-| 2026-06-30 | `artigo-redd-panorama-biomas`                                                          | `REDD+ biomas brasileiros`                                          | REDD+ e o potencial dos biomas brasileiros                                             | Biomas / Conservação      |
-| 2026-07-14 | `artigo-esg-e-creditos-de-carbono-na-pratica`                                          | `ESG e créditos de carbono`                                         | ESG e créditos de carbono na prática: do inventário ao relatório                       | ESG / Empresas            |
-| 2026-07-28 | `artigo-mercado-de-carbono-brasil-2026`                                                | `mercado de carbono brasil 2026`                                    | Mercado de carbono no Brasil em 2026: o que mudou e o que esperar                      | Mercado / SBCE            |
-| 2026-08-27 | `artigo-guia-mercado-credito-carbono-brasil`                                           | `guia crédito de carbono propriedades rurais`                       | Mercado de Crédito de Carbono: Guia para Propriedades Rurais                           | Produtores / PAA          |
-| 2026-09-30 | `artigo-cotacao-credito-carbono-2026`<br>_(+ versões `-en` e `-es`)_                   | `cotação credito de carbono` / `carbon credit price` / `cotización` | Cotação do Crédito de Carbono: Quanto Vale 1 tCO₂e em 2026? _(Trilíngue PT/EN/ES)_     | Mercado / Cotação Global  |
-| 2026-10-02 | `artigo-venda-de-carbono-propriedades-rurais-florestas`<br>_(+ versões `-en` e `-es`)_ | `venda de carbono` / `crédito de carbono propriedades rurais`       | Venda de Carbono em Áreas Rurais: Guia de Monetização Florestal _(Trilíngue PT/EN/ES)_ | Produtores & Terras / PAA |
+| Data       | Slug                                                                                   | Palavra-Chave Primária                                                  | Título do Artigo                                                                         | Categoria / Foco               |
+| :--------- | :------------------------------------------------------------------------------------- | :---------------------------------------------------------------------- | :--------------------------------------------------------------------------------------- | :----------------------------- |
+| 2026-06-30 | `artigo-redd-panorama-biomas`                                                          | `REDD+ biomas brasileiros`                                              | REDD+ e o potencial dos biomas brasileiros                                               | Biomas / Conservação           |
+| 2026-07-14 | `artigo-esg-e-creditos-de-carbono-na-pratica`                                          | `ESG e créditos de carbono`                                             | ESG e créditos de carbono na prática: do inventário ao relatório                         | ESG / Empresas                 |
+| 2026-07-28 | `artigo-mercado-de-carbono-brasil-2026`                                                | `mercado de carbono brasil 2026`                                        | Mercado de carbono no Brasil em 2026: o que mudou e o que esperar                        | Mercado / SBCE                 |
+| 2026-08-27 | `artigo-guia-mercado-credito-carbono-brasil`                                           | `guia crédito de carbono propriedades rurais`                           | Mercado de Crédito de Carbono: Guia para Propriedades Rurais                             | Produtores / PAA               |
+| 2026-09-30 | `artigo-cotacao-credito-carbono-2026`<br>_(+ versões `-en` e `-es`)_                   | `cotação credito de carbono` / `carbon credit price` / `cotización`     | Cotação do Crédito de Carbono: Quanto Vale 1 tCO₂e em 2026? _(Trilíngue PT/EN/ES)_       | Mercado / Cotação Global       |
+| 2026-10-02 | `artigo-venda-de-carbono-propriedades-rurais-florestas`<br>_(+ versões `-en` e `-es`)_ | `venda de carbono` / `crédito de carbono propriedades rurais`           | Venda de Carbono em Áreas Rurais: Guia de Monetização Florestal _(Trilíngue PT/EN/ES)_   | Produtores & Terras / PAA      |
 | 2026-10-05 | `artigo-cra-verde-fiagro-sustentavel`<br>_(+ versões `-en` e `-es`)_                   | `cra verde carbono` / `fiagro sustentavel` / `financiamento verde agro` | CRA Verde e Fiagro: Como Financiar a Restauração com Juros Baixos _(Trilíngue PT/EN/ES)_ | Financiamento / Títulos Verdes |
+| 2026-10-08 | `artigo-biomas-alem-amazonia-caatinga-cerrado-carbono`<br>_(+ versões `-en` e `-es`)_ | `credito de carbono caatinga cerrado` / `biomas alem da amazonia`      | Biomas Além da Amazônia: Por Que Caatinga e Cerrado São a Nova Fronteira do Carbono _(Trilíngue PT/EN/ES)_ | Biomas / Floresta Invertida & PAA |
 
 ---
 
@@ -65,12 +66,10 @@ Para evitar conteúdo repetido e penalizações de SEO no Google:
 
 | Prioridade  | Eixo Temático        | Palavra-Chave GSC Alvo                                               | Pauta Proposta & Ângulo Inédito                                                                                                                                                                                      | CTA de Conversão                |
 | :---------- | :------------------- | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------ |
-| **Pauta 1** | Biomas & Terras      | `bioma brasil` / `bioma caatinga carbono`                            | **Biomas Brasileiros Além da Amazônia: Como a Caatinga e o Cerrado Viraram Foco de Fundos de Carbono**<br>_(Ângulo: alta taxa de retenção radicular, cobenefícios sociais e baixo custo fundiário de implantação)._  | `/biomas` e `/paa`              |
-| **Pauta 2** | Regulação & SBCE     | `mercado regulado de carbono` / `lei 15042 sbce`                     | **Empresas Acima de 25k tCO₂e: O Calendário de Fiscalização do SBCE e Estratégias de Compliance Antecipado**<br>_(Ângulo: governança corporativa, penalidades de descumprimento e montagem de portfólio defensivo)._ | `/marco` e `/mercado`           |
-| **Pauta 3** | Finanças Verdes      | `financiamento verde agro` / `cra verde carbono`                     | **CRA Verde e Fiagro Sustentável: Como Produtores Financiam a Restauração Florestal com Juros Reduzidos**<br>_(Ângulo: estruturação no mercado de capitais combinando yield agrícola e receita futura de CRVE)._     | `/financiamento` e `/simulador` |
-| **Pauta 4** | Indústria & Inovação | `data center verde brasil` / `inteligencia artificial energia limpa` | **Data Centers Verdes e IA: Por Que Gigantes Tech Estão Contratando Créditos de Remoção no Brasil**<br>_(Ângulo: a demanda colossal por energia limpa contínua e remoções de carbono de alta integridade)._          | `/simulador` e `/#contato`      |
-| **Pauta 5** | Agro Regenerativo    | `carbono no solo agronegocio` / `plantio direto carbono`             | **Carbono no Solo: Como Práticas de Plantio Direto e Bioinsumos Criam Ativos Monetizáveis no Agro**<br>_(Ângulo: MRV com satélites e sensores de solo sem interromper a safra comercial)._                           | `/paa`                          |
-| **Pauta 6** | Mercados Globais     | `carbono azul brasil` / `blue carbon manguezais`                     | **Carbono Azul (Blue Carbon): A Nova Corrida pelos Manguezais e Costas Brasileiras**<br>_(Ângulo: ecossistemas costeiros que estocam até 5x mais carbono por hectare que florestas terrestres)._                     | `/biomas`                       |
+| **Pauta 1** | Regulação & SBCE     | `mercado regulado de carbono` / `lei 15042 sbce`                     | **Empresas Acima de 25k tCO₂e: O Calendário de Fiscalização do SBCE e Estratégias de Compliance Antecipado**<br>_(Ângulo: governança corporativa, penalidades de descumprimento e montagem de portfólio defensivo)._ | `/marco` e `/mercado`           |
+| **Pauta 2** | Agro Regenerativo    | `carbono no solo agronegocio` / `plantio direto carbono`             | **Carbono no Solo: Como Práticas de Plantio Direto e Bioinsumos Criam Ativos Monetizáveis no Agro**<br>_(Ângulo: MRV com satélites e sensores de solo sem interromper a safra comercial)._                           | `/paa`                          |
+| **Pauta 3** | Mercados Globais     | `carbono azul brasil` / `blue carbon manguezais`                     | **Carbono Azul (Blue Carbon): A Nova Corrida pelos Manguezais e Costas Brasileiras**<br>_(Ângulo: ecossistemas costeiros que estocam até 5x mais carbono por hectare que florestas terrestres)._                     | `/biomas`                       |
+| **Pauta 4** | Finanças Verdes      | `green bonds brasil` / `titulos verdes b3`                           | **Emissões de Green Bonds e Debêntures Sustentáveis na B3: O Caminho para Grandes Captações de Restauração**<br>_(Ângulo: estruturação financeira, auditoria SPO e spreads atrativos)._                            | `/financiamento` e `/simulador` |
 
 ---
 
