@@ -5,7 +5,7 @@ datePublished: 2026-10-08
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-regulamentacao-sbce-mercado-regulado-carbono-brasil.webp"
 badge: "ESG y Sostenibilidad"
-category: "Sustentabilidade"
+category: "Regulación y SBCE"
 readTime: "6 min de lectura"
 keywords: "créditos de carbono, mercado de carbono, ESG, sustentabilidade, descarbonização, Onda Conecta, SBCE"
 ---
