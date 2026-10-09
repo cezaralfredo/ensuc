@@ -2,17 +2,15 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const distDir = path.resolve('dist');
-const sitemap0 = path.join(distDir, 'sitemap-0.xml');
-const sitemapIndex = path.join(distDir, 'sitemap-index.xml');
-const sitemapTarget = path.join(distDir, 'sitemap.xml');
+const publicDir = path.resolve('public');
 
-// Copia o sitemap direto (urlset com todas as páginas) para sitemap.xml
-if (fs.existsSync(sitemap0)) {
-  fs.copyFileSync(sitemap0, sitemapTarget);
-  console.log('✓ Copiado sitemap-0.xml (urlset com 36 páginas) -> sitemap.xml');
-} else if (fs.existsSync(sitemapIndex)) {
-  fs.copyFileSync(sitemapIndex, sitemapTarget);
-  console.log('✓ Copiado sitemap-index.xml -> sitemap.xml');
-} else {
-  console.warn('⚠️ Nenhum sitemap encontrado em dist/');
+const filesToSync = ['sitemap.xml', 'sitemap-0.xml', 'sitemap-index.xml'];
+
+for (const file of filesToSync) {
+  const src = path.join(publicDir, file);
+  const dest = path.join(distDir, file);
+  if (fs.existsSync(src)) {
+    fs.copyFileSync(src, dest);
+    console.log(`✓ Sincronizado ${file} (public -> dist)`);
+  }
 }
