@@ -1,33 +1,44 @@
+# ENSUC - robots.txt
+# Estrategia: SEO + GEO. Conteudo publico liberado, areas operacionais bloqueadas.
+
+# ---------- Regra geral ----------
 User-agent: *
-Allow: /
-Disallow: /backup/
 Disallow: /send-contato.php
-Disallow: /simulacao/
+Disallow: /simulacao
 
-# Generative AI Engines & Crawlers
-User-agent: GPTBot
-Allow: /
+# ATENCAO: /backup nao deve ficar acessivel pela web. Mova a pasta para fora
+# do diretorio publico ou bloqueie no servidor (403/401). Enquanto isso nao
+# for feito, descomente a linha abaixo. Depois de protegido, mantenha removida,
+# pois o robots.txt e publico e revela o caminho.
+# Disallow: /backup
 
+# ---------- Buscadores e bots de IA (busca, citacao e acesso sob demanda) ----------
+# Grupo proprio: se alguem adicionar regras ao grupo "*", estes continuam
+# sujeitos as mesmas restricoes operacionais abaixo.
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: OAI-SearchBot
 User-agent: ChatGPT-User
-Allow: /
-
+User-agent: Claude-SearchBot
+User-agent: Claude-User
 User-agent: PerplexityBot
-Allow: /
+User-agent: Perplexity-User
+User-agent: DuckAssistBot
+Disallow: /send-contato.php
+Disallow: /simulacao
 
+# ---------- Bots de IA (treinamento de modelos) ----------
+# Liberados. Para ser citado em respostas de IA sem ceder conteudo ao treinamento,
+# troque por "Disallow: /" nos agentes abaixo.
+User-agent: GPTBot
 User-agent: ClaudeBot
-Allow: /
-
-User-agent: anthropic-ai
-Allow: /
-
 User-agent: Google-Extended
-Allow: /
-
 User-agent: Applebot-Extended
-Allow: /
+User-agent: meta-externalagent
+User-agent: CCBot
+User-agent: Amazonbot
+Disallow: /send-contato.php
+Disallow: /simulacao
 
-User-agent: Cohere-ai
-Allow: /
-
-Sitemap: https://ensuc.com.br/sitemap.xml
-
+# ---------- Sitemap (um unico indice, sem duplicidade) ----------
+Sitemap: https://ensuc.com.br/sitemap-index.xml
