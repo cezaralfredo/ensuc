@@ -60,6 +60,7 @@ Para evitar conteúdo repetido e penalizações de SEO no Google:
 | 2026-10-05 | `artigo-cra-verde-fiagro-sustentavel`<br>_(+ versões `-en` e `-es`)_                        | `cra verde carbono` / `fiagro sustentavel` / `financiamento verde agro` | CRA Verde e Fiagro: Como Financiar a Restauração com Juros Baixos _(Trilíngue PT/EN/ES)_                                                  | Financiamento / Títulos Verdes    |
 | 2026-10-08 | `artigo-regulamentacao-sbce-mercado-regulado-carbono-brasil`<br>_(+ versões `-en` e `-es`)_ | `regulamentacao sbce` / `mercado regulado de carbono` / `lei 15042`     | Adeus ESG de Fachada: Como a Regulamentação do SBCE Obriga 17 Setores a Auditar Emissões _(Trilíngue PT/EN/ES - Cross-post Onda Conecta)_ | Regulação & SBCE / Link Building  |
 | 2026-10-08 | `artigo-biomas-alem-amazonia-caatinga-cerrado-carbono`<br>_(+ versões `-en` e `-es`)_       | `credito de carbono caatinga cerrado` / `biomas alem da amazonia`       | Biomas Além da Amazônia: Por Que Caatinga e Cerrado São a Nova Fronteira do Carbono _(Trilíngue PT/EN/ES)_                                | Biomas / Floresta Invertida & PAA |
+| 2026-10-12 | `artigo-green-bonds-titulos-verdes-b3-restauracao`<br>_(+ versões `-en` e `-es`)_          | `green bonds brasil` / `titulos verdes b3`                              | Green Bonds na B3: Captações para Restauração Florestal _(Trilíngue PT/EN/ES)_                                                             | Finanças Climáticas / Títulos B3  |
 
 ---
 
@@ -70,7 +71,7 @@ Para evitar conteúdo repetido e penalizações de SEO no Google:
 | **Pauta 1** | Regulação & SBCE  | `mercado regulado de carbono` / `lei 15042 sbce`         | **Empresas Acima de 25k tCO₂e: O Calendário de Fiscalização do SBCE e Estratégias de Compliance Antecipado**<br>_(Ângulo: governança corporativa, penalidades de descumprimento e montagem de portfólio defensivo)._ | `/marco` e `/mercado`           |
 | **Pauta 2** | Agro Regenerativo | `carbono no solo agronegocio` / `plantio direto carbono` | **Carbono no Solo: Como Práticas de Plantio Direto e Bioinsumos Criam Ativos Monetizáveis no Agro**<br>_(Ângulo: MRV com satélites e sensores de solo sem interromper a safra comercial)._                           | `/paa`                          |
 | **Pauta 3** | Mercados Globais  | `carbono azul brasil` / `blue carbon manguezais`         | **Carbono Azul (Blue Carbon): A Nova Corrida pelos Manguezais e Costas Brasileiras**<br>_(Ângulo: ecossistemas costeiros que estocam até 5x mais carbono por hectare que florestas terrestres)._                     | `/biomas`                       |
-| **Pauta 4** | Finanças Verdes   | `green bonds brasil` / `titulos verdes b3`               | **Emissões de Green Bonds e Debêntures Sustentáveis na B3: O Caminho para Grandes Captações de Restauração**<br>_(Ângulo: estruturação financeira, auditoria SPO e spreads atrativos)._                              | `/financiamento` e `/simulador` |
+| **Pauta 4** | Inovação & Indústria | `hidrogenio verde carbono brasil` / `h2v descarbonizacao` | **Hidrogênio Verde (H2V) e Descarbonização Industrial: O Brasil na Rota das Exportações Limpas**<br>_(Ângulo: regulação do marco legal do H2V, certificações de origem e sinergias com créditos de carbono)._    | `/simulador` e `/#contato`      |
 
 ---
 
