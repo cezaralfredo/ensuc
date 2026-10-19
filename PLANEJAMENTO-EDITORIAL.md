@@ -61,6 +61,8 @@ Para evitar conteúdo repetido e penalizações de SEO no Google:
 | 2026-10-08 | `artigo-regulamentacao-sbce-mercado-regulado-carbono-brasil`<br>_(+ versões `-en` e `-es`)_ | `regulamentacao sbce` / `mercado regulado de carbono` / `lei 15042`     | Adeus ESG de Fachada: Como a Regulamentação do SBCE Obriga 17 Setores a Auditar Emissões _(Trilíngue PT/EN/ES - Cross-post Onda Conecta)_ | Regulação & SBCE / Link Building  |
 | 2026-10-08 | `artigo-biomas-alem-amazonia-caatinga-cerrado-carbono`<br>_(+ versões `-en` e `-es`)_       | `credito de carbono caatinga cerrado` / `biomas alem da amazonia`       | Biomas Além da Amazônia: Por Que Caatinga e Cerrado São a Nova Fronteira do Carbono _(Trilíngue PT/EN/ES)_                                | Biomas / Floresta Invertida & PAA |
 | 2026-10-12 | `artigo-green-bonds-titulos-verdes-b3-restauracao`<br>_(+ versões `-en` e `-es`)_          | `green bonds brasil` / `titulos verdes b3`                              | Green Bonds na B3: Captações para Restauração Florestal _(Trilíngue PT/EN/ES)_                                                             | Finanças Climáticas / Títulos B3  |
+| 2026-10-19 | `artigo-crves-preco-conformidade-sbce-mercado-carbono`<br>_(+ versões `-en` e `-es`)_     | `crve mercado regulado` / `preco de conformidade sbce`                  | CRVEs e o Preço da Conformidade: O Valor do Carbono no SBCE _(Trilíngue PT/EN/ES)_                                                        | Mercado / Finanças Climáticas     |
+
 
 ---
 
