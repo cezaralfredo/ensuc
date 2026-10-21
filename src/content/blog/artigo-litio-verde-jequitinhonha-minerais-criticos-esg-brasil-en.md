@@ -1,7 +1,7 @@
 ---
 title: "The Sustainable White Gold: How Brazil's Green Lithium Valley Captivates European Carmakers"
 description: "With zero tailings dams and 100% recirculated water, Brazilian green lithium becomes the premier ESG benchmark for European electric mobility."
-datePublished: 2026-10-15
+datePublished: 2026-10-21
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-litio-verde-jequitinhonha-minerais-criticos-esg-brasil.webp"
 badge: "ESG & Sustainability"

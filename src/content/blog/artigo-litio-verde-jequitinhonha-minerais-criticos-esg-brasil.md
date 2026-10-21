@@ -1,7 +1,7 @@
 ---
 title: "O Ouro Branco Sustentável: Como o Lítio Verde do Jequitinhonha Conquistou a Europa"
 description: "Sem barragens de rejeitos e com 100% de água recirculada, o lítio brasileiro no Vale do Jequitinhonha vira referência ESG para a transição global."
-datePublished: 2026-10-15
+datePublished: 2026-10-21
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-litio-verde-jequitinhonha-minerais-criticos-esg-brasil.webp"
 badge: "ESG & Sustentabilidade"

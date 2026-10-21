@@ -1,11 +1,11 @@
 ---
 title: "Adeus ESG de Fachada: Como a Regulamentação do SBCE Obriga 17 Setores a Auditar Emissões"
 description: "Entenda o cronograma oficial do Sistema Brasileiro de Comércio de Emissões (SBCE) em 2026 e o que muda para a indústria com as novas exigências de MRV."
-datePublished: 2026-10-08
+datePublished: 2026-10-21
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-regulamentacao-sbce-mercado-regulado-carbono-brasil.webp"
-badge: "Regulação & SBCE"
-category: "Regulação & SBCE"
+badge: "ESG & Sustentabilidade"
+category: "Sustentabilidade"
 readTime: "6 min de leitura"
 keywords: "créditos de carbono, mercado de carbono, ESG, sustentabilidade, descarbonização, Onda Conecta, SBCE"
 ---

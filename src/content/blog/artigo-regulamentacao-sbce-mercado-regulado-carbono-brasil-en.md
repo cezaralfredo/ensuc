@@ -1,11 +1,11 @@
 ---
 title: "Beyond Greenwashing: How Brazil's SBCE Carbon Market Mandates Emissions Audits"
 description: "Understand the official 2026 roadmap for the Brazilian Emissions Trading System (SBCE) and how mandatory MRV rules reshape heavy industry."
-datePublished: 2026-10-08
+datePublished: 2026-10-21
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-regulamentacao-sbce-mercado-regulado-carbono-brasil.webp"
 badge: "ESG & Sustainability"
-category: "Regulation & SBCE"
+category: "Sustentabilidade"
 readTime: "6 min read"
 keywords: "créditos de carbono, mercado de carbono, ESG, sustentabilidade, descarbonização, Onda Conecta, SBCE"
 ---
