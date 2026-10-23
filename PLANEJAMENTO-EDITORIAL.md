@@ -4,15 +4,14 @@ Este documento governa a esteira de pesquisa, redação, geração de imagens e 
 
 ---
 
-## 1. Calendário e Frequência Editorial (Grade Temática Expandida)
+## 1. Calendário e Frequência Editorial (Terças e Quintas-feiras)
 
-| Eixo Editorial                                | Macro-Tema de Inteligência                              | Tópicos & Tecnologias Emergentes                                                                                                                 | Página de Conversão no Site                                          |
-| :-------------------------------------------- | :------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------- |
-| **🗓️ Finanças Climáticas & Cotações**         | **Mercado Financeiro, Preços e Títulos Verdes**         | Cotação spot/futura tCO₂e, CRVEs, Green Bonds, CRAs Verdes, Fiagros sustentáveis, arbitragem e créditos de biodiversidade.                       | [Simulador de Carbono](/simulador) e [Financiamento](/financiamento) |
-| **🗓️ Governança & Regulação (SBCE)**          | **Políticas Públicas, Compliance e Diretrizes Globais** | Lei 15.042/2024, limites acima de 25k tCO₂e, tributação, artigo 6 do Acordo de Paris, CBAM europeu e penalidades.                                | [Mercado](/mercado) e [Marco Legal](/marco)                          |
-| **🗓️ Agronegócio & Monetização de Terras**    | **Propriedades Rurais, PAA e Serviços Ecossistêmicos**  | Contratos de longo prazo (20-30 anos), CAR, regularização fundiária, ILPF (Integração Lavoura-Pecuária-Floresta) e bioinsumos.                   | [PAA - Projetos em Fazendas](/paa) e [/#contato](/#contato)          |
-| **🗓️ Tecnologia, Inovação & Indústria Limpa** | **Transição Energética, Redata, SAF e Carbono Azul**    | Combustíveis de aviação (SAF), data centers verdes movidos a energia limpa (Lei ReData), hidrogênio de baixa emissão e manguezais (Blue Carbon). | [Simulador](/simulador) e [/#contato](/#contato)                     |
-| **🗓️ Biomas & Conservação Estratégica**       | **Geografia Ambiental e Preservação Além da Amazônia**  | Potencial inexplorado da Caatinga, Cerrado, Mata Atlântica e Pantanal, espécies endêmicas e restauração ecológica ARR.                           | [Biomas](/biomas)                                                    |
+A esteira de publicação no Blog da ENSUC opera em cadência bissemanal fixa, agrupando as 10 categorias oficiais em dois macro-eixos complementares:
+
+| Dia da Semana | Macro-Eixo Editorial | Categorias Oficiais Vinculadas | Tópicos Prioritários & Tecnologias | Destinos de Conversão |
+| :--- | :--- | :--- | :--- | :--- |
+| **🗓️ Terça-feira** | **Finanças Climáticas, Mercado & Regulação** | `Mercado`, `Financiamento`, `Regulação & SBCE`, `ESG`, `Mercado Voluntário` | Cotação spot/futura tCO₂e, CRVEs, Green Bonds, CRAs Verdes, Fiagros sustentáveis, SBCE (Lei 15.042/2024), limites de 25k tCO₂e, CBAM e descarbonização corporativa. | [Simulador](/simulador), [Financiamento](/financiamento), [Marco Legal](/marco) e [Mercado](/mercado) |
+| **🗓️ Quinta-feira** | **Campo, Biomas, Agro Regenerativo & Inovação Limpa** | `Guia Rural`, `Biomas`, `Agro Regenerativo`, `Tecnologia & Inovação`, `Biodiversidade & PSA` | Monetização de fazendas (PAA), regularização fundiária, preservação florestal (Cerrado, Caatinga, Pantanal, Mata Atlântica), carbono no solo, ILPF, SAF (aviação sustentável), Data Centers Verdes (ReData) e Blue Carbon. | [PAA - Projetos em Fazendas](/paa), [Biomas](/biomas), [Simulador](/simulador) e [/#contato](/#contato) |
 
 ### 1.1 Categorias Oficiais do Blog (Taxonomia do Frontmatter)
 
@@ -62,6 +61,7 @@ Para evitar conteúdo repetido e penalizações de SEO no Google:
 | 2026-10-08 | `artigo-biomas-alem-amazonia-caatinga-cerrado-carbono`<br>_(+ versões `-en` e `-es`)_       | `credito de carbono caatinga cerrado` / `biomas alem da amazonia`       | Biomas Além da Amazônia: Por Que Caatinga e Cerrado São a Nova Fronteira do Carbono _(Trilíngue PT/EN/ES)_                                | Biomas / Floresta Invertida & PAA |
 | 2026-10-12 | `artigo-green-bonds-titulos-verdes-b3-restauracao`<br>_(+ versões `-en` e `-es`)_          | `green bonds brasil` / `titulos verdes b3`                              | Green Bonds na B3: Captações para Restauração Florestal _(Trilíngue PT/EN/ES)_                                                             | Finanças Climáticas / Títulos B3  |
 | 2026-10-19 | `artigo-crves-preco-conformidade-sbce-mercado-carbono`<br>_(+ versões `-en` e `-es`)_     | `crve mercado regulado` / `preco de conformidade sbce`                  | CRVEs e o Preço da Conformidade: O Valor do Carbono no SBCE _(Trilíngue PT/EN/ES)_                                                        | Mercado / Finanças Climáticas     |
+| 2026-10-22 | `artigo-carbono-no-solo-plantio-direto-agro-regenerativo`<br>_(+ versões `-en` e `-es`)_ | `carbono no solo agronegocio` / `plantio direto carbono`                | Carbono no Solo: Como o Agro Monetiza Plantio Direto e Bioinsumos _(Trilíngue PT/EN/ES)_                                                  | Agro Regenerativo / Solo & VM0042 |
 
 
 ---
@@ -71,9 +71,8 @@ Para evitar conteúdo repetido e penalizações de SEO no Google:
 | Prioridade  | Eixo Temático     | Palavra-Chave GSC Alvo                                   | Pauta Proposta & Ângulo Inédito                                                                                                                                                                                      | CTA de Conversão                |
 | :---------- | :---------------- | :------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------ |
 | **Pauta 1** | Regulação & SBCE  | `mercado regulado de carbono` / `lei 15042 sbce`         | **Empresas Acima de 25k tCO₂e: O Calendário de Fiscalização do SBCE e Estratégias de Compliance Antecipado**<br>_(Ângulo: governança corporativa, penalidades de descumprimento e montagem de portfólio defensivo)._ | `/marco` e `/mercado`           |
-| **Pauta 2** | Agro Regenerativo | `carbono no solo agronegocio` / `plantio direto carbono` | **Carbono no Solo: Como Práticas de Plantio Direto e Bioinsumos Criam Ativos Monetizáveis no Agro**<br>_(Ângulo: MRV com satélites e sensores de solo sem interromper a safra comercial)._                           | `/paa`                          |
-| **Pauta 3** | Mercados Globais  | `carbono azul brasil` / `blue carbon manguezais`         | **Carbono Azul (Blue Carbon): A Nova Corrida pelos Manguezais e Costas Brasileiras**<br>_(Ângulo: ecossistemas costeiros que estocam até 5x mais carbono por hectare que florestas terrestres)._                     | `/biomas`                       |
-| **Pauta 4** | Inovação & Indústria | `hidrogenio verde carbono brasil` / `h2v descarbonizacao` | **Hidrogênio Verde (H2V) e Descarbonização Industrial: O Brasil na Rota das Exportações Limpas**<br>_(Ângulo: regulação do marco legal do H2V, certificações de origem e sinergias com créditos de carbono)._    | `/simulador` e `/#contato`      |
+| **Pauta 2** | Mercados Globais  | `carbono azul brasil` / `blue carbon manguezais`         | **Carbono Azul (Blue Carbon): A Nova Corrida pelos Manguezais e Costas Brasileiras**<br>_(Ângulo: ecossistemas costeiros que estocam até 5x mais carbono por hectare que florestas terrestres)._                     | `/biomas`                       |
+| **Pauta 3** | Inovação & Indústria | `hidrogenio verde carbono brasil` / `h2v descarbonizacao` | **Hidrogênio Verde (H2V) e Descarbonização Industrial: O Brasil na Rota das Exportações Limpas**<br>_(Ângulo: regulação do marco legal do H2V, certificações de origem e sinergias com créditos de carbono)._    | `/simulador` e `/#contato`      |
 
 ---
 
