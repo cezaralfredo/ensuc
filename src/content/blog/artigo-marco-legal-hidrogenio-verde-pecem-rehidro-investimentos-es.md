@@ -1,7 +1,7 @@
 ---
 title: "Hidrógeno Verde Multimillonario: Cómo el Marco Legal de Brasil Impulsa la Energía Limpia"
 description: "Con incentivos del Rehidro y 18.300 millones de reales del PHBC, el marco regulatorio del hidrógeno verde posiciona a Brasil como polo de exportación global."
-datePublished: 2026-11-02
+datePublished: 2026-10-27
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-marco-legal-hidrogenio-verde-pecem-rehidro-investimentos.webp"
 badge: "ESG y Sostenibilidad"

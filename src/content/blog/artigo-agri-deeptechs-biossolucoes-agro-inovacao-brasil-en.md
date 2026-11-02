@@ -1,7 +1,7 @@
 ---
 title: "Beyond Bulk Commodities: How Agri-Deeptechs and Biosolutions Draw Global Capital to Brazil"
 description: "Agricultural biotechnology, CRISPR gene editing, and bio-inputs in Brazil draw sovereign funds, redefining sustainable global food production."
-datePublished: 2026-11-02
+datePublished: 2026-10-15
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-agri-deeptechs-biossolucoes-agro-inovacao-brasil.webp"
 badge: "ESG & Sustainability"

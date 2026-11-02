@@ -1,7 +1,7 @@
 ---
 title: "From Rhetoric to Audit: How Global Carbon Rules Reshape Corporate Cost of Capital"
 description: "With mandatory IFRS S1 and S2 reporting and regulated carbon markets taking hold, ESG now directly dictates corporate borrowing spreads and valuation."
-datePublished: 2026-11-02
+datePublished: 2026-09-14
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-mercado-carbono-esg-transicao-energetica-2026.webp"
 badge: "ESG & Sustainability"

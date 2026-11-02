@@ -1,7 +1,7 @@
 ---
 title: "Do Campo Para a Mesa: A Força do Turismo Farm-to-Table e as Rotas Regenerativas no Brasil"
 description: "A busca por experiências autênticas transforma o turismo rural: conheça o movimento farm-to-table e as viagens regenerativas que valorizam produtores e a natureza."
-datePublished: 2026-11-02
+datePublished: 2026-10-14
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-turismo-farm-to-table-rotas-regenerativas-brasil.webp"
 badge: "ESG & Sustentabilidade"

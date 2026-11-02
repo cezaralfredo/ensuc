@@ -1,7 +1,7 @@
 ---
 title: "The Global SAF Race: Why International Airlines Are Turning to Brazilian Ethanol to Decarbonize the Skies"
 description: "With strict international net-zero aviation mandates and certified Alcohol-to-Jet pathways, global carriers are directing billions to Brazilian biorefineries."
-datePublished: 2026-11-02
+datePublished: 2026-10-18
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-saf-combustivel-sustentavel-aviacao-etanol-descarbonizacao.webp"
 badge: "ESG & Sustainability"

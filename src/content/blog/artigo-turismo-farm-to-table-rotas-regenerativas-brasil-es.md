@@ -1,7 +1,7 @@
 ---
 title: "Del Campo a la Mesa: El Auge del Turismo Farm-to-Table y las Rutas Regenerativas"
 description: "La búsqueda de experiencias auténticas transforma los viajes rurales: conoce el movimiento farm-to-table y las rutas regenerativas que revitalizan comunidades."
-datePublished: 2026-11-02
+datePublished: 2026-10-14
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-turismo-farm-to-table-rotas-regenerativas-brasil.webp"
 badge: "ESG y Sostenibilidad"

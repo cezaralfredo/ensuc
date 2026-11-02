@@ -1,7 +1,7 @@
 ---
 title: "Del Residuo al Megavatio: Cómo el Biometano Convierte al Agro en el Nuevo Gigante de Energía Limpia en Brasil"
 description: "Impulsado por inversiones récord y el marco del Combustible del Futuro, el biometano sustituye al diésel fósil y acelera la transición verde en Brasil."
-datePublished: 2026-11-02
+datePublished: 2026-10-30
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-biometano-agroenergia-transicao-energetica-combustivel-futuro-brasil.webp"
 badge: "ESG y Sostenibilidad"

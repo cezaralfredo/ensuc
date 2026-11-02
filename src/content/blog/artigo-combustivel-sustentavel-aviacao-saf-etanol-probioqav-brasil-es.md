@@ -1,7 +1,7 @@
 ---
 title: "Del Campo a las Nubes: Cómo el SAF de Etanol y ProBioQAV Lideran la Aviación Verde"
 description: "Con el ProBioQAV, el sistema Book and Claim y la tecnología Alcohol-to-Jet, Brasil convierte su etanol en el gran combustible de los vuelos sostenibles."
-datePublished: 2026-11-02
+datePublished: 2026-10-24
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-combustivel-sustentavel-aviacao-saf-etanol-probioqav-brasil.webp"
 badge: "ESG y Sostenibilidad"

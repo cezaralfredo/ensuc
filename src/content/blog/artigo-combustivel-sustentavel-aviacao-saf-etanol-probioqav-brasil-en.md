@@ -1,7 +1,7 @@
 ---
 title: "From Sugarcane to the Skies: How Ethanol-Based SAF and ProBioQAV Lead Green Aviation"
 description: "With ProBioQAV, Book and Claim certification, and Alcohol-to-Jet technology, Brazil positions its sugarcane ethanol as the global fuel for sustainable flights."
-datePublished: 2026-11-02
+datePublished: 2026-10-24
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-combustivel-sustentavel-aviacao-saf-etanol-probioqav-brasil.webp"
 badge: "ESG & Sustainability"

@@ -1,7 +1,7 @@
 ---
 title: "Além das Commodities: Como as Agri-Deeptechs e Biossoluções Atraem Bilhões ao Brasil"
 description: "Biotecnologia agrícola, edição genética CRISPR e bioinsumos brasileiros atraem fundos soberanos e redefinem a produtividade verde no campo global."
-datePublished: 2026-11-02
+datePublished: 2026-10-15
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-agri-deeptechs-biossolucoes-agro-inovacao-brasil.webp"
 badge: "ESG & Sustentabilidade"

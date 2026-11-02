@@ -1,7 +1,7 @@
 ---
 title: "R$ 18,3 Bilhões e Rehidro: Como o Hidrogênio Verde Transforma o Brasil"
 description: "Incentivos do Rehidro e R$ 18,3 bilhões do PHBC: saiba como o marco legal do hidrogênio verde transforma o Brasil em polo global de energia limpa."
-datePublished: 2026-11-02
+datePublished: 2026-10-27
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-marco-legal-hidrogenio-verde-pecem-rehidro-investimentos.webp"
 badge: "ESG & Sustentabilidade"

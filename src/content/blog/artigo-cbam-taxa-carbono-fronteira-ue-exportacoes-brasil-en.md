@@ -1,7 +1,7 @@
 ---
 title: "Europe's Green Border: How CBAM and Carbon Tariffs Reshape Brazilian Exports"
 description: "The definitive phase of the EU Carbon Border Adjustment Mechanism (CBAM) brings real carbon financial levies. Learn how steel, aluminum, and industry adapt."
-datePublished: 2026-11-02
+datePublished: 2026-10-21
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-cbam-taxa-carbono-fronteira-ue-exportacoes-brasil.webp"
 badge: "ESG & Sustainability"

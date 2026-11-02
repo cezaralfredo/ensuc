@@ -1,7 +1,7 @@
 ---
 title: "¿Capital de la IA Verde? Cómo el Marco Redata Convierte a Brasil en el Hub Sostenible"
 description: "Descubra cómo el régimen Redata atrae inversiones en centros de datos de IA en Brasil vinculando incentivos a energía limpia y eficiencia hídrica."
-datePublished: 2026-11-02
+datePublished: 2026-09-17
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-redata-data-centers-verdes-ia-energia-limpa-2026.webp"
 badge: "ESG y Sostenibilidad"

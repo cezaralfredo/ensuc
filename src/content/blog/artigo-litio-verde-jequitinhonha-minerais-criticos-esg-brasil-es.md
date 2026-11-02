@@ -1,7 +1,7 @@
 ---
 title: "El Oro Blanco Sostenible: Cómo el Litio Verde de Jequitinhonha Conquista la Industria Europea"
 description: "Sin presas de relaves y con agua 100% recirculada, el litio verde brasileño se convierte en el estándar ESG para la electromovilidad europea."
-datePublished: 2026-11-02
+datePublished: 2026-10-15
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-litio-verde-jequitinhonha-minerais-criticos-esg-brasil.webp"
 badge: "ESG y Sostenibilidad"

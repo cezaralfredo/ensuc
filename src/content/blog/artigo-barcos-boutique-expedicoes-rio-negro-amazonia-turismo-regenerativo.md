@@ -1,7 +1,7 @@
 ---
 title: "Navegar Sem Pressa: Como os Barcos Boutique e a Energia Solar Redefinem o Ecoturismo de Luxo no Rio Negro"
 description: "Pequenos grupos, propulsão sustentável e alta gastronomia de floresta: conheça as expedições fluviais em barcos boutique que revolucionam o turismo na Amazônia."
-datePublished: 2026-11-02
+datePublished: 2026-10-23
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-barcos-boutique-expedicoes-rio-negro-amazonia-turismo-regenerativo.webp"
 badge: "ESG & Sustentabilidade"

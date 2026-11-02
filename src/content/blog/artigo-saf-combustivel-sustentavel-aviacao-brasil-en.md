@@ -1,7 +1,7 @@
 ---
 title: "The End of Fossil Jet Fuel? How Brazil is Leading the Global Race for Sustainable Aviation Fuel"
 description: "Explore Brazil's landmark SAF regulations, the revolutionary Book & Claim model, 2037 aviation climate targets, and clean energy investments."
-datePublished: 2026-11-02
+datePublished: 2026-09-24
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-saf-combustivel-sustentavel-aviacao-brasil.webp"
 badge: "ESG & Sustainability"

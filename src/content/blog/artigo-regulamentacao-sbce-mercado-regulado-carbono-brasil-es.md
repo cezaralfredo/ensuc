@@ -1,7 +1,7 @@
 ---
 title: "Adiós al Lavado Verde: Cómo el SBCE Obliga a 17 Sectores a Auditar Emisiones"
 description: "Conozca el calendario oficial del Sistema Brasileño de Comercio de Emisiones (SBCE) en 2026 y las nuevas obligaciones de auditoría de carbono."
-datePublished: 2026-11-02
+datePublished: 2026-10-08
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-regulamentacao-sbce-mercado-regulado-carbono-brasil.webp"
 badge: "ESG y Sostenibilidad"

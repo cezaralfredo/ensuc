@@ -1,7 +1,7 @@
 ---
 title: "From Soil to Plate: The Power of Farm-to-Table Tourism and Regenerative Travel"
 description: "The quest for authentic human connection reshapes travel: explore how hyper-local gastronomy and regenerative agritourism revitalize local communities and ecosystems."
-datePublished: 2026-11-02
+datePublished: 2026-10-14
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-turismo-farm-to-table-rotas-regenerativas-brasil.webp"
 badge: "ESG & Sustainability"

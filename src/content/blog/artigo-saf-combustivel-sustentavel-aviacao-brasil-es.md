@@ -1,7 +1,7 @@
 ---
 title: "¿El Fin del Queroseno Fósil? Cómo Brasil Lidera la Carrera Global del Combustible Sostenible de Aviación"
 description: "Descubre la regulación del SAF y el modelo Book & Claim en Brasil, los objetivos climáticos de la aviación para 2037 y las inversiones limpias."
-datePublished: 2026-11-02
+datePublished: 2026-09-24
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-saf-combustivel-sustentavel-aviacao-brasil.webp"
 badge: "ESG y Sostenibilidad"

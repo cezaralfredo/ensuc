@@ -1,7 +1,7 @@
 ---
 title: "Más Allá de las Materias Primas: Cómo las Agri-Deeptechs y Biosoluciones Atraen Capital a Brasil"
 description: "Biotecnología agrícola, edición genética CRISPR y bioinsumos en Brasil atraen fondos soberanos, redefiniendo la productividad en el campo global."
-datePublished: 2026-11-02
+datePublished: 2026-10-15
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-agri-deeptechs-biossolucoes-agro-inovacao-brasil.webp"
 badge: "ESG y Sostenibilidad"

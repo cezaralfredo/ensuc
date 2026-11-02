@@ -1,7 +1,7 @@
 ---
 title: "The End of Spreadsheet ESG: Why Carbon Emissions Became Audited Balance Sheet Liabilities"
 description: "Understand how CVM Resolution 193 (IFRS S1 & S2) and the EU CBAM turned climate accounting and carbon metrics into hard balance sheet audit requirements."
-datePublished: 2026-11-02
+datePublished: 2026-10-01
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-fim-do-esg-de-planilha-carbono-balanco-auditado.webp"
 badge: "ESG & Sustainability"

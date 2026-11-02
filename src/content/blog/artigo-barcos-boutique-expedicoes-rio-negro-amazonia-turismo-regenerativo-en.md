@@ -1,7 +1,7 @@
 ---
 title: "Slow River Cruising: How Boutique Riverboats and Solar Energy Redefine Luxury Ecotourism in the Rio Negro"
 description: "Small groups, silent solar propulsion, and indigenous gastronomy: explore the boutique riverboat expeditions revolutionizing Brazilian Amazon ecotourism."
-datePublished: 2026-11-02
+datePublished: 2026-10-23
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-barcos-boutique-expedicoes-rio-negro-amazonia-turismo-regenerativo.webp"
 badge: "ESG & Sustainability"
