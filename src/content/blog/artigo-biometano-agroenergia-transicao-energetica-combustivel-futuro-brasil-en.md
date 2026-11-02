@@ -1,7 +1,7 @@
 ---
 title: "From Waste to Megawatts: How Biomethane Turns Brazil's Agribusiness into a Clean Energy Giant"
 description: "Backed by multi-billion dollar investments and the Fuel of the Future framework, biomethane replaces fossil diesel and powers Brazil's green energy leap."
-datePublished: 2026-10-30
+datePublished: 2026-11-02
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-biometano-agroenergia-transicao-energetica-combustivel-futuro-brasil.webp"
 badge: "ESG & Sustainability"

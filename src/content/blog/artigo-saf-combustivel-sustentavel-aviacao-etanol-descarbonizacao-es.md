@@ -1,7 +1,7 @@
 ---
 title: "La Carrera del SAF: Por Qué las Aerolíneas Mundiales Apuestan por el Etanol Brasileño para Descarbonizar los Cielos"
 description: "Con metas internacionales de cero emisiones y la vía Alcohol-to-Jet homologada, la aviación comercial invierte miles de millones en biorrefinerías."
-datePublished: 2026-10-21
+datePublished: 2026-11-02
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-saf-combustivel-sustentavel-aviacao-etanol-descarbonizacao.webp"
 badge: "ESG y Sostenibilidad"

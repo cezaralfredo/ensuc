@@ -1,7 +1,7 @@
 ---
 title: "O Fim do Querosene Fóssil? Como o Brasil Lidera a Corrida Global do Combustível Sustentável de Aviação"
 description: "Entenda a regulamentação do SAF e do modelo Book & Claim no Brasil, as metas da aviação até 2037 e os bilhões em investimentos limpos."
-datePublished: 2026-10-21
+datePublished: 2026-11-02
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-saf-combustivel-sustentavel-aviacao-brasil.webp"
 badge: "ESG & Sustentabilidade"

@@ -1,7 +1,7 @@
 ---
 title: "A Fronteira Verde da Europa: Como o CBAM e a Taxa de Carbono Impactam as Exportações Brasileiras"
 description: "A fase definitiva do CBAM entra em vigor na União Europeia cobrando taxas reais de carbono. Saiba como o aço, alumínio e a indústria brasileira são afetados."
-datePublished: 2026-10-21
+datePublished: 2026-11-02
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-cbam-taxa-carbono-fronteira-ue-exportacoes-brasil.webp"
 badge: "ESG & Sustentabilidade"

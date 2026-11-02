@@ -1,7 +1,7 @@
 ---
 title: "Do Discurso à Auditoria: Como as Regras Globais de Carbono Afetam as Empresas Brasileiras"
 description: "Com a entrada em vigor das normas IFRS S1 e S2 e o avanço do mercado regulado de emissões, o ESG passa a ditar diretamente o custo de capital e a rentabilidade."
-datePublished: 2026-10-21
+datePublished: 2026-11-02
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-mercado-carbono-esg-transicao-energetica-2026.webp"
 badge: "ESG & Sustentabilidade"

@@ -1,7 +1,7 @@
 ---
 title: "Billion-Dollar Green Hydrogen: How Brazil's Clean Energy Framework Powers Global Decarbonization"
 description: "With Rehidro tax suspensions and $3.5B in PHBC clean credits, Brazil's low-carbon hydrogen legal framework turns the Northeast into a powerhouse for global energy."
-datePublished: 2026-10-27
+datePublished: 2026-11-02
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-marco-legal-hidrogenio-verde-pecem-rehidro-investimentos.webp"
 badge: "ESG & Sustainability"

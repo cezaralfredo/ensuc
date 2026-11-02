@@ -1,7 +1,7 @@
 ---
 title: "A Corrida do SAF: Por que as Aéreas Globais Apostam no Etanol Brasileiro para Descarbonizar os Céus"
 description: "Com metas rigorosas de emissões e a rota Alcohol-to-Jet certificada, o setor aéreo mundial direciona bilhões para biorrefinarias no Brasil."
-datePublished: 2026-10-21
+datePublished: 2026-11-02
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-saf-combustivel-sustentavel-aviacao-etanol-descarbonizacao.webp"
 badge: "ESG & Sustentabilidade"

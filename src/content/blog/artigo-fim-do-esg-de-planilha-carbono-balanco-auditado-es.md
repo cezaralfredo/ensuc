@@ -1,7 +1,7 @@
 ---
 title: "El Fin del ESG de Papel: Por Qué el Carbono Pasó a Ser un Pasivo Contable Auditado"
 description: "Descubra cómo la Resolución 193 de la CVM (IFRS S1 y S2) y el CBAM europeo transformaron la contabilidad climática y el costo de capital de las empresas."
-datePublished: 2026-10-21
+datePublished: 2026-11-02
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-fim-do-esg-de-planilha-carbono-balanco-auditado.webp"
 badge: "ESG y Sostenibilidad"

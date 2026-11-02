@@ -1,7 +1,7 @@
 ---
 title: "O Fim do ESG de Planilha: Por que o Carbono Virou Linha de Balanço Auditada no Brasil"
 description: "Entenda como a Resolução 193 da CVM (IFRS S1 e S2) e o CBAM europeu transformaram a contabilidade climática e o custo de capital das empresas brasileiras."
-datePublished: 2026-10-21
+datePublished: 2026-11-02
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-fim-do-esg-de-planilha-carbono-balanco-auditado.webp"
 badge: "ESG & Sustentabilidade"

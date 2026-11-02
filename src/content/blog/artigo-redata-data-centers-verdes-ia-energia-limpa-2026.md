@@ -1,7 +1,7 @@
 ---
 title: "Capital da IA Verde? Como o Redata Transforma o Brasil no Hub dos Data Centers"
 description: "Descubra como o novo marco fiscal do Redata atrai bilhões para data centers de IA no Brasil vinculando incentivos a 100% de energia limpa e metas hídricas."
-datePublished: 2026-10-21
+datePublished: 2026-11-02
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-redata-data-centers-verdes-ia-energia-limpa-2026.webp"
 badge: "ESG & Sustentabilidade"

@@ -1,7 +1,7 @@
 ---
 title: "The Green AI Capital: How the Redata Framework Positions Brazil as a Sustainable Hub"
 description: "Discover how Brazil's new Redata framework attracts billions in AI data centers by tying tax incentives to 100% renewable energy and strict water metrics."
-datePublished: 2026-10-21
+datePublished: 2026-11-02
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-redata-data-centers-verdes-ia-energia-limpa-2026.webp"
 badge: "ESG & Sustainability"

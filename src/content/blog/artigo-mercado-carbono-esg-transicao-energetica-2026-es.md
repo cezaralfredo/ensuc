@@ -1,7 +1,7 @@
 ---
 title: "Del Discurso a la Auditoría: Cómo las Normas de Carbono Transforman el Costo de Capital"
 description: "Con la entrada en vigor de las normas IFRS S1 y S2 y los mercados regulados de emisiones, la sostenibilidad dicta directamente el acceso al crédito empresarial."
-datePublished: 2026-10-21
+datePublished: 2026-11-02
 author: "Redação Onda Conecta"
 image: "/images/blog/artigo-mercado-carbono-esg-transicao-energetica-2026.webp"
 badge: "ESG y Sostenibilidad"
