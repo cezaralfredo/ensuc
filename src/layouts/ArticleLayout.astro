@@ -37,6 +37,7 @@ const {
 
 const locale = lang === 'pt' ? 'pt-BR' : (lang === 'es' ? 'es-ES' : 'en-US');
 const formattedDate = new Intl.DateTimeFormat(locale, {
+  timeZone: 'UTC',
   day: 'numeric',
   month: 'long',
   year: 'numeric'

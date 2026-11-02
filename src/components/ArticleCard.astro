@@ -15,6 +15,7 @@ interface Props {
 const { title, description, slug, date, badge = 'Artigo', readTime = '5 min de leitura', translations } = Astro.props;
 
 const formattedDate = new Intl.DateTimeFormat('pt-BR', {
+  timeZone: 'UTC',
   day: 'numeric',
   month: 'long',
   year: 'numeric'
