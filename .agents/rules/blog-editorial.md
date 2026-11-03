@@ -1,6 +1,6 @@
 ---
 description: Regras obrigatórias de governança editorial, prevenção de duplicidade e SEO para criação de artigos no blog ENSUC.
-globs: ["src/content/blog/**", "PLANEJAMENTO-EDITORIAL.md"]
+globs: "src/content/blog/**, PLANEJAMENTO-EDITORIAL.md"
 ---
 
 # Regras Editoriais e Protocolo Anti-Duplicidade do Blog ENSUC
