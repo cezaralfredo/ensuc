@@ -3,7 +3,7 @@ title: "CRAs Verdes y Fiagros de Restauración: La Ingeniería de Renta Fija en 
 description: "Descubra cómo estructurar emisiones de CRA Verde y Fiagros en B3 respaldadas por restauración ecológica, cobros de carbono y garantías cruzadas."
 datePublished: 2026-11-16
 author: "Comité Editorial ENSUC"
-image: "/images/blog/artigo-cra-verde-fiagro-estruturacao-renda-fixa-sustentavel.png"
+image: "/images/blog/artigo-cra-verde-fiagro-sustentavel.png"
 badge: "Finanzas Climáticas"
 category: "Financiación"
 readTime: "8 min de lectura"
@@ -69,7 +69,7 @@ La siguiente tabla resume las diferencias operativas y de costo de capital entre
 
 | Parámetro de Estructuración | CRA Agrícola Convencional | CRA Verde de Restauración | Fiagro-FIDC Integrado (Multimercado) |
 | :--- | :--- | :--- | :--- |
-| **Plazo Medio de Emisión** | 2 a 5 años | 7 a 15 años | 5 a 12 años |
+| **Plazo Medio de Emisión** | 2 a 5 años | 7 a 15 anos | 5 a 12 años |
 | **Periodo de Gracia del Principal** | 6 a 12 meses | 36 a 72 meses | Flexible (estructurado por clases de cuotas) |
 | **Spread Medio sobre CDI / IPCA** | CDI + 2,5% a 4,5% | CDI + 1,2% a 2,8% *(Greenium)* | IPCA + 7,5% a 9,0% (ponderado sénior/sub) |
 | **Garantía Principal** | Prenda de cosecha y maquinaria | Hipoteca fiduciaria + CPR Verde + Escrow CRVE | Derechos de crédito agroambientales + Cuotas intermedias |
@@ -95,7 +95,7 @@ Para explorar oportunidades de financiación y fondos multilaterales, consulte n
 
 La emisión de títulos verdes de renta fija exige rigor documental, certeza técnica en la cuantificación de carbono y estructuración jurídica de precisión. El proceso comprende desde el diagnóstico predial geoespacial hasta la negociación con titularizadoras y agentes fiduciarios.
 
-El equipo multidisciplinario de **ENSUC** brinda acompañamiento integral en el diseño técnico del proyecto, gobernanza de datos para auditorías SPO y articulación con el mercado de capitales:
+El equipo multidisciplinario de **ENSUC** brinda acompañamiento integral en el diseño técnico del proyecto, gobernanza de dados para auditorías SPO y articulación con el mercado de capitales:
 
 * **Diagnóstico Predial y Auditoría Previa:** Verificación del CAR, pasivos de Reserva Legal e viabilidad financiera.
 * **Modelado Agroforestal y de Carbono:** Redacción del Documento de Diseño del Proyecto (PDD) bajo metodologias ARR.
