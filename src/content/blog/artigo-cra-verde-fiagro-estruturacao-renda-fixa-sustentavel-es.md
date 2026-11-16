@@ -3,7 +3,7 @@ title: "CRAs Verdes y Fiagros de Restauración: La Ingeniería de Renta Fija en 
 description: "Descubra cómo estructurar emisiones de CRA Verde y Fiagros en B3 respaldadas por restauración ecológica, cobros de carbono y garantías cruzadas."
 datePublished: 2026-11-16
 author: "Comité Editorial ENSUC"
-image: "/images/blog/artigo-cra-verde-fiagro-sustentavel.png"
+image: "/images/blog/artigo-cra-verde-fiagro-estruturacao-renda-fixa-sustentavel.png"
 badge: "Finanzas Climáticas"
 category: "Financiación"
 readTime: "8 min de lectura"
@@ -17,7 +17,7 @@ Bajo el marco regulatorio emitido por la [Comisión de Valores Mobiliarios de Br
 ### En Pocas Líneas: Claves Estratégicas de la Titulización Verde
 
 * **Ingeniería de Plazos y Curva J:** Los flujos de caja de la restauración nativa requieren periodos de gracia de 4 a 7 años para la amortización del capital principal, respaldados por la combinación de productos agroforestales no madereros (NTFP) y cosechas anticipadas de créditos de carbono (CRVEs).
-* **Solvencia Jurídica con CVM 214 e B3:** La normativa vigente autoriza expresamente a fondos y titularizadoras a mantener derechos de crédito basados en créditos de carbono custodiados en bolsa, eliminando el riesgo de doble prenda.
+* **Solvencia Jurídica con CVM 214 y B3:** La normativa vigente autoriza expresamente a fondos y titularizadoras a mantener derechos de crédito basados en créditos de carbono custodiados en bolsa, eliminando el riesgo de doble prenda.
 * **Reducción Efectiva del Costo de Capital (*Greenium*):** Títulos certificados con dictamen independiente *Second Party Opinion* (SPO) bajo taxonomías de la *Climate Bonds Initiative* (CBI) logran una compresión de spread de 80 a 160 puntos básicos respecto a los CRAs convencionales.
 
 ---
@@ -69,7 +69,7 @@ La siguiente tabla resume las diferencias operativas y de costo de capital entre
 
 | Parámetro de Estructuración | CRA Agrícola Convencional | CRA Verde de Restauración | Fiagro-FIDC Integrado (Multimercado) |
 | :--- | :--- | :--- | :--- |
-| **Plazo Medio de Emisión** | 2 a 5 años | 7 a 15 anos | 5 a 12 años |
+| **Plazo Medio de Emisión** | 2 a 5 años | 7 a 15 años | 5 a 12 años |
 | **Periodo de Gracia del Principal** | 6 a 12 meses | 36 a 72 meses | Flexible (estructurado por clases de cuotas) |
 | **Spread Medio sobre CDI / IPCA** | CDI + 2,5% a 4,5% | CDI + 1,2% a 2,8% *(Greenium)* | IPCA + 7,5% a 9,0% (ponderado sénior/sub) |
 | **Garantía Principal** | Prenda de cosecha y maquinaria | Hipoteca fiduciaria + CPR Verde + Escrow CRVE | Derechos de crédito agroambientales + Cuotas intermedias |
@@ -82,7 +82,7 @@ La siguiente tabla resume las diferencias operativas y de costo de capital entre
 
 La entrada en vigor de la **Resolución CVM nº 214** marcó un hito al habilitar a los Fiagros a invertir en derechos crediticios derivados de la descarbonización y proyectos en biomas brasileños. Sin embargo, el gran acelerador para intervenciones de escala territorial es la arquitectura de **Blended Finance**:
 
-* **Cuotas de Primera Pérdida (*First-Loss Capital*):** Fondos climáticos soberanos y bancos multilaterales de desarrollo (como el Fondo Clima de BNDES, BID Invest e entidades filantrópicas) suscriben cuotas subordinadas júnior, absorbiendo posibles riesgos iniciales.
+* **Cuotas de Primera Pérdida (*First-Loss Capital*):** Fondos climáticos soberanos y bancos multilaterales de desarrollo (como el Fondo Clima de BNDES, BID Invest y entidades filantrópicas) suscriben cuotas subordinadas júnior, absorbiendo posibles riesgos iniciales.
 * **Cuotas Sénior para el Mercado:** Este colchón de absorción eleva la calificación crediticia de las cuotas sénior a niveles AAA o AA en escala local, atrayendo a fondos de pensiones, oficinas familiares y pequeños inversionistas en la Bolsa B3.
 
 Esta estructura reduce de forma sustancial el costo financiero para el productor y simultáneamente genera liquidez en el mercado secundario de títulos verdes en Brasil.
@@ -95,9 +95,9 @@ Para explorar oportunidades de financiación y fondos multilaterales, consulte n
 
 La emisión de títulos verdes de renta fija exige rigor documental, certeza técnica en la cuantificación de carbono y estructuración jurídica de precisión. El proceso comprende desde el diagnóstico predial geoespacial hasta la negociación con titularizadoras y agentes fiduciarios.
 
-El equipo multidisciplinario de **ENSUC** brinda acompañamiento integral en el diseño técnico del proyecto, gobernanza de dados para auditorías SPO y articulación con el mercado de capitales:
+El equipo multidisciplinario de **ENSUC** brinda acompañamiento integral en el diseño técnico del proyecto, gobernanza de datos para auditorías SPO y articulación con el mercado de capitales:
 
-* **Diagnóstico Predial y Auditoría Previa:** Verificación del CAR, pasivos de Reserva Legal e viabilidad financiera.
+* **Diagnóstico Predial y Auditoría Previa:** Verificación del CAR, pasivos de Reserva Legal y viabilidad financiera.
 * **Modelado Agroforestal y de Carbono:** Redacción del Documento de Diseño del Proyecto (PDD) bajo metodologias ARR.
 * **Sindicación en Mercado de Capitales:** Estructuración de CPRs Verdes y coordinación de emisiones de CRA con socios en B3.
 

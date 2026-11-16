@@ -3,7 +3,7 @@ title: "Green CRAs and Restoration Fiagros: Fixed Income Engineering in Brazil"
 description: "Discover how to structure Green CRA and Fiagro issuances on B3 backed by ecological restoration, carbon receivables, and cross-collateral guarantees."
 datePublished: 2026-11-16
 author: "ENSUC Editorial Board"
-image: "/images/blog/artigo-cra-verde-fiagro-sustentavel.png"
+image: "/images/blog/artigo-cra-verde-fiagro-estruturacao-renda-fixa-sustentavel.png"
 badge: "Climate Finance"
 category: "Financing"
 readTime: "8 min read"
