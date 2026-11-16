@@ -23,7 +23,7 @@ A execução da esteira jornalística divide-se em 6 fases encadeadas:
 
 ### Fase 1: Pauta e Radar Editorial
 1. Consultar a data corrente e o calendário em `PLANEJAMENTO-EDITORIAL.md`:
-   * **Terça-feira:** Finanças Climáticas, Mercado, Cotação & Regulação SBCE (Lei nº 15.042/2024, Green Bonds, CRA Verde, compliance corporativo).
+   * **Segunda-feira:** Finanças Climáticas, Mercado, Cotação & Regulação SBCE (Lei nº 15.042/2024, Green Bonds, CRA Verde, compliance corporativo).
    * **Quinta-feira:** Campo, Monetização de Terras (PAA), Biomas, Agro Regenerativo & Tecnologias Verdes (SAF, Blue Carbon, solo).
 2. Definir o ângulo inédito da matéria do dia.
 
