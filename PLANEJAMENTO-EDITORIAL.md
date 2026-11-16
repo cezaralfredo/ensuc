@@ -4,13 +4,13 @@ Este documento governa a esteira de pesquisa, redação, geração de imagens e 
 
 ---
 
-## 1. Calendário e Frequência Editorial (Terças e Quintas-feiras)
+## 1. Calendário e Frequência Editorial (Segundas e Quintas-feiras)
 
 A esteira de publicação no Blog da ENSUC opera em cadência bissemanal fixa, agrupando as 10 categorias oficiais em dois macro-eixos complementares:
 
 | Dia da Semana | Macro-Eixo Editorial | Categorias Oficiais Vinculadas | Tópicos Prioritários & Tecnologias | Destinos de Conversão |
 | :--- | :--- | :--- | :--- | :--- |
-| **🗓️ Terça-feira** | **Finanças Climáticas, Mercado & Regulação** | `Mercado`, `Financiamento`, `Regulação & SBCE`, `ESG`, `Mercado Voluntário` | Cotação spot/futura tCO₂e, CRVEs, Green Bonds, CRAs Verdes, Fiagros sustentáveis, SBCE (Lei 15.042/2024), limites de 25k tCO₂e, CBAM e descarbonização corporativa. | [Simulador](/simulador), [Financiamento](/financiamento), [Marco Legal](/marco) e [Mercado](/mercado) |
+| **🗓️ Segunda-feira** | **Finanças Climáticas, Mercado & Regulação** | `Mercado`, `Financiamento`, `Regulação & SBCE`, `ESG`, `Mercado Voluntário` | Cotação spot/futura tCO₂e, CRVEs, Green Bonds, CRAs Verdes, Fiagros sustentáveis, SBCE (Lei 15.042/2024), limites de 25k tCO₂e, CBAM e descarbonização corporativa. | [Simulador](/simulador), [Financiamento](/financiamento), [Marco Legal](/marco) e [Mercado](/mercado) |
 | **🗓️ Quinta-feira** | **Campo, Biomas, Agro Regenerativo & Inovação Limpa** | `Guia Rural`, `Biomas`, `Agro Regenerativo`, `Tecnologia & Inovação`, `Biodiversidade & PSA` | Monetização de fazendas (PAA), regularização fundiária, preservação florestal (Cerrado, Caatinga, Pantanal, Mata Atlântica), carbono no solo, ILPF, SAF (aviação sustentável), Data Centers Verdes (ReData) e Blue Carbon. | [PAA - Projetos em Fazendas](/paa), [Biomas](/biomas), [Simulador](/simulador) e [/#contato](/#contato) |
 
 ### 1.1 Categorias Oficiais do Blog (Taxonomia do Frontmatter)
@@ -66,6 +66,7 @@ Para evitar conteúdo repetido e penalizações de SEO no Google:
 | 2026-10-29 | `artigo-carbono-azul-blue-carbon-manguezais-costas-brasil`<br>_(+ versões `-en` e `-es`)_ | `carbono azul brasil` / `blue carbon manguezais`         | Carbono Azul: A Nova Corrida Pelos Manguezais e Costas Brasileiras _(Trilíngue PT/EN/ES)_                                                 | Biomas / Blue Carbon Costeiro     |
 | 2026-11-09 | `artigo-blended-finance-fundos-climaticos-restauracao-florestal`<br>_(+ versões `-en` e `-es`)_ | `blended finance restauracao florestal` / `fundos climaticos bndes` | Blended Finance e Fundos Climáticos na Restauração Florestal _(Trilíngue PT/EN/ES)_                                                      | Finanças Climáticas / Fundo Clima & PAA |
 | 2026-11-12 | `artigo-creditos-biodiversidade-psa-servicos-ecossistemicos`<br>_(+ versões `-en` e `-es`)_ | `creditos de biodiversidade brasil` / `nature credit` / `PSA`       | Créditos de Biodiversidade no Brasil: Além do Carbono _(Trilíngue PT/EN/ES)_                                                             | Biodiversidade & PSA / PAA & Biomas     |
+| 2026-11-16 | `artigo-cra-verde-fiagro-estruturacao-renda-fixa-sustentavel`<br>_(+ versões `-en` e `-es`)_ | `cra verde restauracao biomas` / `emissao renda fixa sustentavel` / `titulos verdes agro` | CRAs Verdes e Fiagros de Restauração: A Engenharia de Emissões de Renda Fixa no Brasil _(Trilíngue PT/EN/ES)_                            | Finanças Climáticas / Renda Fixa Verde & B3 |
 
 
 ---
@@ -74,9 +75,9 @@ Para evitar conteúdo repetido e penalizações de SEO no Google:
 
 | Prioridade  | Eixo Temático     | Palavra-Chave GSC Alvo                                   | Pauta Proposta & Ângulo Inédito                                                                                                                                                                                      | CTA de Conversão                |
 | :---------- | :---------------- | :------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------ |
-| **Pauta 1** | Agro Regenerativo | `bioinsumos carbono agricultura` / `recarbonizacao solos` | **Bioinsumos e Recarbonização de Solos Tropicais: A Nova Matriz de Produtividade no Cerrado**<br>_(Ângulo: fixação biológica, redução de fertilizantes químicos e mensuração via VM0042)._                        | `/simulador` e `/paa`           |
-| **Pauta 2** | Inovação & Indústria | `combustivel futuro saf biometano` / `transicao agro`     | **Combustível do Futuro: A Sinergia entre Biometano, SAF e CBIOs no Mercado Regulado**<br>_(Ângulo: integração das diretrizes da Lei do Combustível do Futuro com o SBCE e RenovaBio)._                    | `/simulador` e `/#contato`      |
-| **Pauta 3** | Finanças Climáticas | `cra verde restauracao biomas` / `titulos verdes agro`   | **CRAs Verdes e Fiagros de Restauração: Como Estruturar Emissões de Renda Fixa Sustentável**<br>_(Ângulo: modelagem de recebíveis verdes lastreados em safras futuras de carbono e produtos agroflorestais)._    | `/financiamento` e `/paa`       |
+| **Pauta 1 (Quinta 19/11)** | Agro Regenerativo | `bioinsumos carbono agricultura` / `recarbonizacao solos` | **Bioinsumos e Recarbonização de Solos Tropicais: A Nova Matriz de Produtividade no Cerrado**<br>_(Ângulo: fixação biológica, redução de fertilizantes químicos e mensuração via VM0042)._                        | `/simulador` e `/paa`           |
+| **Pauta 2 (Segunda 23/11)** | Inovação & Indústria | `combustivel futuro saf biometano` / `transicao agro`     | **Combustível do Futuro: A Sinergia entre Biometano, SAF e CBIOs no Mercado Regulado**<br>_(Ângulo: integração das diretrizes da Lei do Combustível do Futuro com o SBCE e RenovaBio)._                    | `/simulador` e `/#contato`      |
+| **Pauta 3 (Quinta 26/11)** | Guia Rural & PAA | `monetizacao excedente reserva legal` / `paa fazendas` | **Excedente de Reserva Legal: Como Produtores Estruturam Renda Passiva com Cotas de Reserva Ambiental (CRA) e Carbono**<br>_(Ângulo: monetização de passivos e excedentes sob o Código Florestal e SBCE)._      | `/paa` e `/simulador`           |
 
 ---
 
