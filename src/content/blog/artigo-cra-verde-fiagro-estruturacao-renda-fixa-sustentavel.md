@@ -3,7 +3,7 @@ title: "CRAs Verdes e Fiagros de Restauração: A Engenharia de Emissões de Ren
 description: "Descubra como estruturar operações de CRA Verde e Fiagros na B3 com lastro em restauração ecológica, recebíveis de carbono e garantias cruzadas."
 datePublished: 2026-11-16
 author: "Redação ENSUC"
-image: "/images/blog/artigo-cra-verde-fiagro-estruturacao-renda-fixa-sustentavel.png"
+image: "/images/blog/artigo-cra-verde-fiagro-sustentavel.png"
 badge: "Finanças Climáticas"
 category: "Financiamento"
 readTime: "8 min de leitura"
