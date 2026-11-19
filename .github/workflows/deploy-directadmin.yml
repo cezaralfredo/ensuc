@@ -6,6 +6,10 @@ on:
       - main
   workflow_dispatch: # Permite disparar manualmente pelo painel do GitHub
 
+concurrency:
+  group: deploy-directadmin
+  cancel-in-progress: false
+
 jobs:
   build-and-deploy:
     name: Build Astro & Enviar via FTP
@@ -39,5 +43,6 @@ jobs:
           local-dir: ./dist/
           protocol: ftp
           security: loose
+          timeout: 60000
           log-level: verbose
           dangerous-clean-slate: false
