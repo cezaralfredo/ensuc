@@ -1,5 +1,5 @@
 ---
-title: "Bioinsumos y Recarbonización de Suelos en el Cerrado: Guía 2026"
+title: "Bioinsumos y Recarbonización de Suelos en el Cerrado: Guía 2027"
 description: "Cómo los bioinsumos y la fijación biológica recarbonizan suelos tropicales del Cerrado, reducen fertilizantes y generan créditos bajo VM0042. Cifras y estrategias."
 datePublished: 2026-11-19
 author: "Equipo Editorial ENSUC"

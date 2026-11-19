@@ -1,5 +1,5 @@
 ---
-title: "Bioinputs and Soil Recarbonization: The Cerrado Playbook"
+title: "Bioinputs and Soil Recarbonization: Cerrado Guide 2027"
 description: "How bioinputs and biological nitrogen fixation recarbonize tropical soils in Brazil's Cerrado, cut synthetic fertilizers and generate VM0042 carbon credits."
 datePublished: 2026-11-19
 author: "ENSUC Editorial Team"
